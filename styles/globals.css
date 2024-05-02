@@ -59,6 +59,9 @@
 }
 .navbar-purple{
     background-color: #7E37B1;
+}
+.navbar-padding
+{
     padding: 25px 0px 25px 0px;
 }
 .titleB2C {
@@ -88,7 +91,7 @@
     background: #fdec25;
     border: 1px solid #fdec25;
     border-radius: 50px;
-    padding: 5px 20px;
+    padding: 5px;
 }
 .nov_button.nety-primary a {
     font-family: 0, sans-serif;
@@ -129,7 +132,7 @@
 }
    /* ###########*/
 
-   .cards-container {
+.cards-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -137,7 +140,6 @@
 
 .card {
     width: 270px;
-    height: 250px;
     margin: 20px;
     padding: 15px;
     border: 1px solid #ccc;
@@ -146,11 +148,11 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.card img {
+/* .card img {
     width: 100px;
     height: 100px;
     margin-bottom: 10px;
-}
+} */
 
 .card h2 {
     font-size: 1.2em;
@@ -198,4 +200,287 @@
 }
 .bg-contacts{
     padding: 20px 0 20px 0;
+}
+.card-product-home{
+    width: 260px !important;
+    margin: 30px;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    height: 420px;
+    border: 1px solid rgba(89, 4, 157, .35);
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+}
+.price {
+    font-weight: 700 !important;
+    color: #f7547f !important;
+    font-size: 24px !important;
+    margin-top: 10px;
+}
+.novTabContainer {
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    height: 50px;
+    text-align: center;
+}
+.hstack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+  }
+  .nov-tabs {
+    display: flex;
+    background-color: #59049D;
+    align-items: center;
+    justify-content: center;
+    width: 600px !important;
+    height: 50px;
+    
+    border: 1px solid #d5d5d5;
+    border-radius: 36px;
+    text-align: center;
+    padding-bottom: 0 !important;
+    overflow-x: hidden !important;
+}
+.regular_price{
+    text-decoration-line: line-through;
+}
+.btn-product-cat{
+    border-radius: 36px;
+}
+.card-header-product{
+    --bs-card-cap-padding-y: 0rem; 
+    --bs-card-cap-padding-x: 0rem;
+    border-bottom: none;
+    text-align: right;
+    background-color: white !important;
+}
+/* ##########  styles of Smartphone product page ######### */
+
+.block-category {
+    margin-bottom: 25px;
+}
+.pubBlock {
+    background-color: #f2e8fa;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.fullDescr {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.camera {
+    width: 75px;
+    margin: 0 8px;
+    padding: 4px 2px;
+    background-color: #fff;
+    padding: 10px 0;
+    margin: 0 10px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+}
+.cameraValue {
+    color: #59049d !important;
+    font-weight: 600;
+    font-size: 26px;
+}
+.vivoy50 {
+    color: black !important;
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+}
+.ul-list-vivo{
+    list-style-type:circle ;
+}
+@media (max-width: 990px) {
+    .nav-bar-hidden {
+      display: none !important;
+    }
+  }
+
+  .cnxPage {
+    background-color: #59049d;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.imgLeft {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.firstBloc {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+.page_title_account {
+    border-bottom: none !important;
+    color: #000;
+    text-transform: none;
+    font-size: 35px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.titleDesc {
+    color: #6c6c6c;
+    font-size: 20px;
+}
+.cnxPage .block-form-login .formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+.register-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #bfb2d7;
+  }
+  
+  .register-form .mb-3 {
+    margin-bottom: 20px;
+  }
+
+  .card-pub-profile {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* style information profile */
+.card-info-profil{
+    width: 100%;
+    margin: 0% !important;
+    padding-top: 15px !important;
+}
+
+.input-text{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.input-password{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.input-submit{
+    background-color: #640fa2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+  
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    text-align: left;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 980px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 980px) {
+    .col-25, .col-75 {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  /* Pour les écrans plus larges */
+.col-7 {
+    float: left;
+    width: 60%;
+    padding-right: 4%;
+  }
+  
+  .col-5 {
+    float: left;
+    width: 40%;
+  }
+  
+  /* Pour les écrans plus petits (mobile) */
+  @media screen and (max-width: 980px) {
+    .col-7, .col-5 {
+      width: 100%;
+      float: none;
+      padding-top: 50px;
+      
+    }
+  }
+  
+.form-control-label {
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: #666;
+    padding-top: 10px;
+}
+.input-email-none{
+    pointer-events: none;
+    background-color: #e9e9e9;
+}
+
+/*********** order Details **************/
+.info-Order{
+    text-align: left;
+}
+.info-table-head{
+    background-color:rgb(226, 225, 237) !important;
+}
+.h4-order-details{
+    color:#640fa2;
 }

@@ -1,4 +1,3 @@
-import "bootstrap-icons/font/bootstrap-icons.css";
 import Link from "next/link";
 import Dropdown from "./dropdown";
 import React, { useState } from "react";
@@ -6,41 +5,6 @@ import LanguageSelector from "./languageSelector";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 
-const menuItemsProducts = {
-  title: "Produits",
-  children: [
-    {
-      title: "Smartphones",
-      route: "/phone",
-    },
-    {
-      title: "Accessoires",
-      route: "/accessorie",
-    },
-  ],
-};
-const menuItemsServices = {
-  title: "Services",
-  children: [
-    {
-      title: " Nety Security",
-      route: "/products/hinkle-horns",
-    },
-    {
-      title: "Nety Service de Contenu",
-      route: "/products/doozers",
-    },
-  ],
-};
-const menuItemsOffres = {
-  title: "Offres Internet",
-  children: [
-    {
-      title: "Offres Net's Go",
-      route: "/products/hinkle-horns",
-    },
-  ],
-};
 const menuItemsMyNety = {
   title: "My Nety",
   icon: "bi bi-person-fill",
@@ -55,7 +19,7 @@ const menuItemsMyNety = {
     },
   ],
 };
-export default function Header({}) {
+export default function HeaderProfile({}) {
   const [isOpen, setIsOpen] = useState(false); // État pour gérer l'ouverture du menu déroulant
   // Fonction pour basculer l'état isOpen
   const toggleDropdown = () => {
@@ -71,9 +35,9 @@ export default function Header({}) {
   return (
     <>
       <div className="header-top hidden-lg-down navbar-purple navbar-padding ">
-        <div className="container center-container row align-items-center justify-content-between">
-          
-            <div className="col-3  d-flex align-items-center font-size-18 ">
+        <div className="container center-container row">
+          <div className="d-flex align-items-center font-size-16 no-gutters justify-content-between ">
+            <div className="d-flex align-items-center font-size-18 ">
               <a className="titleB2C b2cActive text-decoration-none" href="">
                 {t("particular")}
               </a>
@@ -85,8 +49,7 @@ export default function Header({}) {
               </a>
             </div>
 
-            <div className="nav-bar-hidden d-flex col-9">
-            <div className="d-flex col-6">
+            <div className="d-flex nav-bar-hidden col-8">
               <div className="nov_button nety-secondary mx-2 ">
                 <a
                   href="https://www.nety.tn/fr/module/paiementfacture/nouveau"
@@ -105,8 +68,8 @@ export default function Header({}) {
                   {t("subscribe")}
                 </a>
               </div>
-              </div>
-              <div className="col d-flex align-items-center justify-content-end text-decoration-none">
+
+              <div className="d-flex align-items-center text-decoration-none">
                 <div className="d-flex align-items-center text-decoration-none">
                   <div
                     className="px-4 text-decoration-none"
@@ -117,12 +80,8 @@ export default function Header({}) {
                       fontSize: "18px",
                     }}
                   >
-                    <a className="text-decoration-none" href="/eshop">
-                      <i className="bi bi-shop link"></i>
-                      <span className="text-decoration-none link">
-                        &nbsp; E-shop
-                      </span>
-                    </a>
+                    <i className="bi bi-shop"></i>
+                    <span className="text-decoration-none">&nbsp; E-shop</span>
                   </div>
                   <div className="dropdown myAccountDropdown">
                     <Dropdown items={menuItemsMyNety} />
@@ -154,7 +113,7 @@ export default function Header({}) {
             </div>
           </div>
         </div>
-     
+      </div>
       <nav className="navbar navbar-expand-lg bg-purple header-purple">
         <div className="container-fluid center-container">
           <Link href="/" className="navbar-brand">
@@ -185,17 +144,24 @@ export default function Header({}) {
                 }`}
               >
                 <ul className="navbar-nav">
-                  <Dropdown key="offres" items={menuItemsOffres} />
-                  <Dropdown key="products" items={menuItemsProducts} />
-                  <Dropdown key="services" items={menuItemsServices} />
                   <li className="nav-item">
                     <Link href="#" className="nav-link">
-                      Nos boutiques
+                      My Nety
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link href="/myInformations" className="nav-link">
+                      Mes informations
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link href="/orders" className="nav-link">
+                      Mess commandes
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="#" className="nav-link">
-                      Contact
+                      Logout
                     </Link>
                   </li>
                 </ul>
@@ -207,17 +173,19 @@ export default function Header({}) {
             className={`collapse navbar-collapse justify-content-end `}
           >
             <ul className="navbar-nav">
-              <Dropdown key="offres" items={menuItemsOffres} />
-              <Dropdown key="products" items={menuItemsProducts} />
-              <Dropdown key="services" items={menuItemsServices} />
               <li className="nav-item">
-                <Link href="#" className="nav-link">
-                  Nos boutiques
+                <Link href="/profile" className="nav-link">
+                  My Nety
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#" className="nav-link">
-                  Contact
+                <Link href="/myInformations" className="nav-link">
+                  Mes informations
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href="/orders" className="nav-link">
+                  Mes commandes
                 </Link>
               </li>
             </ul>

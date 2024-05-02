@@ -1,26 +1,32 @@
-import Footer from "@/components/footer";
-import Header from "@/components/header";
-import Navbar from "@/components/navbar";
-import Service  from "@/components/services";
-import Produit from "@/components/produit";
-import Slider from "@/components/slider";
-import Contacts from "@/components/contacts";
-import Inscription from "@/components/inscription";
-import MonCarrousel from "@/components/test";
+import Footer from '../components/footer';
+import Header from "../components/header";
+import Service from "../components/services";
+import Slider from "../components/slider";
+import Contacts from "../components/contacts";
+import Inscription from "../components/inscription";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import Product from "../components/product";
+import { useTranslation } from 'next-i18next';
 
-export default function Home() {
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['common']))
+    },
+  };
+}
+export default function Home({}) {
+
   return (
     <>
-      <Navbar />
       <Header />
       <Slider />
-     
       <Service />
-      <Contacts/>
-      <Inscription/>
-      
-      
+      <Product />
+      <Contacts />
+      <Inscription />
       <Footer />
+      
     </>
   );
 }

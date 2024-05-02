@@ -1,0 +1,4098 @@
+{"accessories": [
+    {
+        "id_product": "97",
+        "id_supplier": "0",
+        "id_manufacturer": "2",
+        "id_category_default": "9",
+        "id_shop_default": "1",
+        "id_tax_rules_group": "1",
+        "on_sale": "1",
+        "online_only": "0",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": "",
+        "ecotax": "0.000000",
+        "quantity": 0,
+        "minimal_quantity": "1",
+        "low_stock_threshold": null,
+        "low_stock_alert": "0",
+        "price": "8,910 TND",
+        "wholesale_price": "0.000000",
+        "unity": "",
+        "unit_price_ratio": "0.000000",
+        "additional_shipping_cost": "0.000000",
+        "reference": "",
+        "supplier_reference": "",
+        "location": "",
+        "width": "0.000000",
+        "height": "0.000000",
+        "depth": "0.000000",
+        "weight": "0.000000",
+        "out_of_stock": "0",
+        "additional_delivery_times": "1",
+        "quantity_discount": "0",
+        "customizable": "0",
+        "uploadable_files": "0",
+        "text_fields": "0",
+        "active": "1",
+        "redirect_type": "404",
+        "id_type_redirected": "0",
+        "available_for_order": "1",
+        "available_date": null,
+        "show_condition": "0",
+        "condition": "new",
+        "show_price": "1",
+        "indexed": "1",
+        "visibility": "both",
+        "cache_is_pack": "0",
+        "cache_has_attachments": "0",
+        "is_virtual": "0",
+        "cache_default_attribute": "25",
+        "date_add": "2023-09-07 14:45:34",
+        "date_upd": "2023-11-23 12:09:09",
+        "advanced_stock_management": "0",
+        "pack_stock_type": "0",
+        "state": "1",
+        "product_type": "combinations",
+        "id_shop": "1",
+        "id_lang": "1",
+        "description": "",
+        "description_short": "<p><span style=\"color:#374853;font-family:'Work Sans', sans-serif;font-size:16px;letter-spacing:0.8px;background-color:#ffffff;\">Connectivité: Filaire - Longueur de câble: 1,2 m - Micro integré avec commande à un bouton - Compatible avec la plupart des mobiles et tablettes - Connecteur: Prise Jack 3.5 mm - Couleur: Noir</span></p>",
+        "link_rewrite": "ecouteur-filaire-e-11-itel",
+        "meta_description": "",
+        "meta_keywords": "",
+        "meta_title": "",
+        "name": "Ecouteur filaire E-11 iTEL",
+        "available_now": "",
+        "available_later": "",
+        "delivery_in_stock": "",
+        "delivery_out_stock": "",
+        "new": "0",
+        "price_min": "8.910000",
+        "price_max": "9.900000",
+        "id_product_attribute": "25",
+        "allow_oosp": 0,
+        "cover_image_id": "80",
+        "category": "accessoires",
+        "category_name": "Accessoires",
+        "link": "http://localhost/nety/fr/accessoires/97-ecouteur-filaire-e-11-itel.html",
+        "attribute_price": 0,
+        "price_tax_exc": 7.487395,
+        "price_without_reduction": 9.9,
+        "price_without_reduction_without_tax": 8.319328,
+        "reduction": 0.99,
+        "reduction_without_tax": 0.831933,
+        "specific_prices": {
+            "id_specific_price": "2147",
+            "id_specific_price_rule": "0",
+            "id_cart": "0",
+            "id_product": "97",
+            "id_shop": "0",
+            "id_shop_group": "0",
+            "id_currency": "0",
+            "id_country": "0",
+            "id_group": "0",
+            "id_customer": "0",
+            "id_product_attribute": "0",
+            "price": "-1.000000",
+            "from_quantity": "1",
+            "reduction": "0.100000",
+            "reduction_tax": "1",
+            "reduction_type": "percentage",
+            "from": "0000-00-00 00:00:00",
+            "to": "0000-00-00 00:00:00",
+            "score": "0"
+        },
+        "quantity_all_versions": 10,
+        "id_image": "fr-default",
+        "features": [],
+        "attachments": [],
+        "virtual": 0,
+        "pack": 0,
+        "packItems": [],
+        "nopackprice": 0,
+        "customization_required": false,
+        "attributes": {
+            "1": {
+                "id_attribute": "1",
+                "id_attribute_group": "1",
+                "name": "Noir",
+                "group": "Couleur",
+                "reference": "",
+                "ean13": "",
+                "isbn": "",
+                "upc": "",
+                "mpn": ""
+            }
+        },
+        "rate": 19,
+        "tax_name": "TN TVA 19%",
+        "ecotax_rate": 0,
+        "unit_price": "",
+        "images": [
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/80-cart_default/ecouteur-filaire-e-11-itel.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/80-small_default/ecouteur-filaire-e-11-itel.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/80-medium_default/ecouteur-filaire-e-11-itel.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/80-home_default/ecouteur-filaire-e-11-itel.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/80-large_default/ecouteur-filaire-e-11-itel.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/80-extra_large_default/ecouteur-filaire-e-11-itel.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/80-cart_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/80-home_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/80-extra_large_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "80",
+                "cover": "1",
+                "position": "1",
+                "associatedVariants": []
+            }
+        ],
+        "default_image": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/80-cart_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/80-small_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/80-medium_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/80-home_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/80-large_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/80-extra_large_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/80-cart_default/ecouteur-filaire-e-11-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/80-home_default/ecouteur-filaire-e-11-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/80-extra_large_default/ecouteur-filaire-e-11-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "80",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "cover": {
+            "bySize": {
+                "cart_default": {
+                    "url": "https://www.nety.tn/63-home_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/80-small_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/80-medium_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/80-home_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/80-large_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/80-extra_large_default/ecouteur-filaire-e-11-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/80-cart_default/ecouteur-filaire-e-11-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/80-home_default/ecouteur-filaire-e-11-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/80-extra_large_default/ecouteur-filaire-e-11-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "80",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "has_discount": true,
+        "discount_type": "percentage",
+        "discount_percentage": "-10%",
+        "discount_percentage_absolute": "10%",
+        "discount_amount": "0,990 TND",
+        "discount_amount_to_display": "-0,990 TND",
+        "price_amount": 8.91,
+        "regular_price_amount": 9.9,
+        "regular_price": "9,900 TND",
+        "discount_to_display": "0,990 TND",
+        "unit_price_full": "",
+        "show_availability": true,
+        "availability_message": "Produit disponible avec d'autres options",
+        "availability_date": null,
+        "availability": "unavailable"
+    },
+    {
+        "id_product": "95",
+        "id_supplier": "0",
+        "id_manufacturer": "2",
+        "id_category_default": "9",
+        "id_shop_default": "1",
+        "id_tax_rules_group": "1",
+        "on_sale": "1",
+        "online_only": "0",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": "",
+        "ecotax": "0.000000",
+        "quantity": 11,
+        "minimal_quantity": "1",
+        "low_stock_threshold": null,
+        "low_stock_alert": "0",
+        "price": "9,520 TND",
+        "wholesale_price": "0.000000",
+        "unity": "",
+        "unit_price_ratio": "0.000000",
+        "additional_shipping_cost": "0.000000",
+        "reference": "",
+        "supplier_reference": "",
+        "location": "",
+        "width": "0.000000",
+        "height": "0.000000",
+        "depth": "0.000000",
+        "weight": "0.000000",
+        "out_of_stock": "0",
+        "additional_delivery_times": "1",
+        "quantity_discount": "0",
+        "customizable": "0",
+        "uploadable_files": "0",
+        "text_fields": "0",
+        "active": "1",
+        "redirect_type": "404",
+        "id_type_redirected": "0",
+        "available_for_order": "1",
+        "available_date": "0000-00-00",
+        "show_condition": "0",
+        "condition": "new",
+        "show_price": "1",
+        "indexed": "1",
+        "visibility": "both",
+        "cache_is_pack": "0",
+        "cache_has_attachments": "0",
+        "is_virtual": "0",
+        "cache_default_attribute": "0",
+        "date_add": "2023-09-07 14:25:43",
+        "date_upd": "2023-09-26 13:56:26",
+        "advanced_stock_management": "0",
+        "pack_stock_type": "0",
+        "state": "1",
+        "product_type": "",
+        "id_shop": "1",
+        "id_lang": "1",
+        "description": "",
+        "description_short": "<p><span style=\"color:#202124;font-family:arial, sans-serif;font-size:14px;background-color:#ffffff;\">Chargeur ITEL - Type : Micro USB - Input : 100V-240V-50-60Hz/200mA - Output : 5.0V / 1A - Longueur du câble : 1m - Couleur : Noir</span></p>",
+        "link_rewrite": "chargeur-micro-usb-u051ea-1a-itel",
+        "meta_description": "",
+        "meta_keywords": "",
+        "meta_title": "",
+        "name": "Chargeur M-USB U051EA 1A iTEL",
+        "available_now": "",
+        "available_later": "",
+        "delivery_in_stock": "",
+        "delivery_out_stock": "",
+        "new": "0",
+        "price_min": "9.520000",
+        "price_max": "11.900000",
+        "id_product_attribute": "0",
+        "allow_oosp": 0,
+        "cover_image_id": "89",
+        "category": "accessoires",
+        "category_name": "Accessoires",
+        "link": "http://localhost/nety/fr/accessoires/95-chargeur-micro-usb-u051ea-1a-itel.html",
+        "attribute_price": 0,
+        "price_tax_exc": 8,
+        "price_without_reduction": 11.9,
+        "price_without_reduction_without_tax": 10,
+        "reduction": 2.38,
+        "reduction_without_tax": 2,
+        "specific_prices": {
+            "id_specific_price": "2112",
+            "id_specific_price_rule": "0",
+            "id_cart": "0",
+            "id_product": "95",
+            "id_shop": "1",
+            "id_shop_group": "0",
+            "id_currency": "0",
+            "id_country": "0",
+            "id_group": "0",
+            "id_customer": "0",
+            "id_product_attribute": "0",
+            "price": "-1.000000",
+            "from_quantity": "1",
+            "reduction": "0.200000",
+            "reduction_tax": "1",
+            "reduction_type": "percentage",
+            "from": "0000-00-00 00:00:00",
+            "to": "0000-00-00 00:00:00",
+            "score": "16"
+        },
+        "quantity_all_versions": 11,
+        "id_image": "fr-default",
+        "features": [],
+        "attachments": [],
+        "virtual": 0,
+        "pack": 0,
+        "packItems": [],
+        "nopackprice": 0,
+        "customization_required": false,
+        "rate": 19,
+        "tax_name": "TN TVA 19%",
+        "ecotax_rate": 0,
+        "unit_price": "",
+        "images": [
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/77-cart_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/77-small_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/77-medium_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/77-home_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/77-large_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/77-extra_large_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/77-cart_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/77-home_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/77-extra_large_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "77",
+                "cover": null,
+                "position": "1",
+                "associatedVariants": []
+            },
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/89-cart_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/89-small_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/89-medium_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/89-home_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/89-large_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/89-extra_large_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/89-cart_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/89-home_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/89-extra_large_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "89",
+                "cover": "1",
+                "position": "2",
+                "associatedVariants": []
+            }
+        ],
+        "default_image": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/89-cart_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/89-small_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/89-medium_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/89-home_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/89-large_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/89-extra_large_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/89-cart_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/89-home_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/89-extra_large_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "89",
+            "cover": "1",
+            "position": "2",
+            "associatedVariants": []
+        },
+        "cover": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/89-cart_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/89-small_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/89-medium_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/89-home_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/89-large_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/89-extra_large_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/89-cart_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/89-home_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/89-extra_large_default/chargeur-micro-usb-u051ea-1a-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "89",
+            "cover": "1",
+            "position": "2",
+            "associatedVariants": []
+        },
+        "has_discount": true,
+        "discount_type": "percentage",
+        "discount_percentage": "-20%",
+        "discount_percentage_absolute": "20%",
+        "discount_amount": "2,380 TND",
+        "discount_amount_to_display": "-2,380 TND",
+        "price_amount": 9.52,
+        "regular_price_amount": 11.9,
+        "regular_price": "11,900 TND",
+        "discount_to_display": "2,380 TND",
+        "unit_price_full": "",
+        "show_availability": true,
+        "availability_date": null,
+        "availability_message": "En stock",
+        "availability": "available"
+    },
+    {
+        "id_product": "98",
+        "id_supplier": "0",
+        "id_manufacturer": "2",
+        "id_category_default": "9",
+        "id_shop_default": "1",
+        "id_tax_rules_group": "3",
+        "on_sale": "0",
+        "online_only": "0",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": "",
+        "ecotax": "0.000000",
+        "quantity": 10,
+        "minimal_quantity": "1",
+        "low_stock_threshold": null,
+        "low_stock_alert": "0",
+        "price": "10,900 TND",
+        "wholesale_price": "0.000000",
+        "unity": "",
+        "unit_price_ratio": "0.000000",
+        "additional_shipping_cost": "0.000000",
+        "reference": "",
+        "supplier_reference": "",
+        "location": "",
+        "width": "0.000000",
+        "height": "0.000000",
+        "depth": "0.000000",
+        "weight": "0.000000",
+        "out_of_stock": "0",
+        "additional_delivery_times": "1",
+        "quantity_discount": "0",
+        "customizable": "0",
+        "uploadable_files": "0",
+        "text_fields": "0",
+        "active": "1",
+        "redirect_type": "404",
+        "id_type_redirected": "0",
+        "available_for_order": "1",
+        "available_date": null,
+        "show_condition": "0",
+        "condition": "new",
+        "show_price": "1",
+        "indexed": "1",
+        "visibility": "both",
+        "cache_is_pack": "0",
+        "cache_has_attachments": "0",
+        "is_virtual": "0",
+        "cache_default_attribute": "27",
+        "date_add": "2023-09-07 14:49:49",
+        "date_upd": "2023-09-26 14:09:01",
+        "advanced_stock_management": "0",
+        "pack_stock_type": "3",
+        "state": "1",
+        "product_type": "combinations",
+        "id_shop": "1",
+        "id_lang": "1",
+        "description": "",
+        "description_short": "<p><span style=\"color:#232323;font-family:Poppins, sans-serif;font-size:15px;letter-spacing:0.8px;background-color:#ffffff;\">Interface : jack 3,5 mm - Longueur de câble : 1.2 m - Micro intégré avec commande à un bouton - Compatible avec la plupart des mobiles et tablettes - Couleur noir - Garantie 1 an</span></p>",
+        "link_rewrite": "ecouteur-filaire-e-12-itel",
+        "meta_description": "",
+        "meta_keywords": "",
+        "meta_title": "",
+        "name": "Ecouteur filaire E-12 iTEL",
+        "available_now": "",
+        "available_later": "",
+        "delivery_in_stock": "",
+        "delivery_out_stock": "",
+        "new": "0",
+        "price_min": "10.900000",
+        "price_max": "10.900000",
+        "id_product_attribute": "27",
+        "allow_oosp": 0,
+        "cover_image_id": "81",
+        "category": "accessoires",
+        "category_name": "Accessoires",
+        "link": "http://localhost/nety/fr/accessoires/98-ecouteur-filaire-e-12-itel.html",
+        "attribute_price": 0,
+        "price_tax_exc": 10.186916,
+        "price_without_reduction": 10.9,
+        "price_without_reduction_without_tax": 10.186916,
+        "reduction": 0,
+        "reduction_without_tax": 0,
+        "specific_prices": [],
+        "quantity_all_versions": 20,
+        "id_image": "fr-default",
+        "features": [],
+        "attachments": [],
+        "virtual": 0,
+        "pack": 0,
+        "packItems": [],
+        "nopackprice": 0,
+        "customization_required": false,
+        "attributes": {
+            "1": {
+                "id_attribute": "1",
+                "id_attribute_group": "1",
+                "name": "Noir",
+                "group": "Couleur",
+                "reference": "",
+                "ean13": "",
+                "isbn": "",
+                "upc": "",
+                "mpn": ""
+            }
+        },
+        "rate": 7,
+        "tax_name": "TN TVA 7%",
+        "ecotax_rate": 0,
+        "unit_price": "",
+        "images": [
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/81-cart_default/ecouteur-filaire-e-12-itel.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/81-small_default/ecouteur-filaire-e-12-itel.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/81-medium_default/ecouteur-filaire-e-12-itel.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/81-home_default/ecouteur-filaire-e-12-itel.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/81-large_default/ecouteur-filaire-e-12-itel.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/81-extra_large_default/ecouteur-filaire-e-12-itel.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/81-cart_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/81-home_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/81-extra_large_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "81",
+                "cover": "1",
+                "position": "1",
+                "associatedVariants": []
+            }
+        ],
+        "default_image": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/81-cart_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/81-small_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/81-medium_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/81-home_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/81-large_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/81-extra_large_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/81-cart_default/ecouteur-filaire-e-12-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/81-home_default/ecouteur-filaire-e-12-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/81-extra_large_default/ecouteur-filaire-e-12-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "81",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "cover": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/81-cart_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/81-small_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/81-medium_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/81-home_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/81-large_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/81-extra_large_default/ecouteur-filaire-e-12-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/81-cart_default/ecouteur-filaire-e-12-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/81-home_default/ecouteur-filaire-e-12-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/81-extra_large_default/ecouteur-filaire-e-12-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "81",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "has_discount": false,
+        "discount_type": null,
+        "discount_percentage": null,
+        "discount_percentage_absolute": null,
+        "discount_amount": null,
+        "discount_amount_to_display": null,
+        "price_amount": 10.9,
+        "regular_price_amount": 10.9,
+        "regular_price": "10,900 TND",
+        "discount_to_display": null,
+        "unit_price_full": "",
+        "show_availability": true,
+        "availability_date": null,
+        "availability_message": "En stock",
+        "availability": "available"
+    },
+    {
+        "id_product": "92",
+        "id_supplier": "0",
+        "id_manufacturer": "2",
+        "id_category_default": "9",
+        "id_shop_default": "1",
+        "id_tax_rules_group": "3",
+        "on_sale": "1",
+        "online_only": "0",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": "",
+        "ecotax": "0.000000",
+        "quantity": 10,
+        "minimal_quantity": "1",
+        "low_stock_threshold": null,
+        "low_stock_alert": "0",
+        "price": "11,610 TND",
+        "wholesale_price": "0.000000",
+        "unity": "",
+        "unit_price_ratio": "0.000000",
+        "additional_shipping_cost": "0.000000",
+        "reference": "",
+        "supplier_reference": "",
+        "location": "",
+        "width": "0.000000",
+        "height": "0.000000",
+        "depth": "0.000000",
+        "weight": "0.000000",
+        "out_of_stock": "0",
+        "additional_delivery_times": "1",
+        "quantity_discount": "0",
+        "customizable": "0",
+        "uploadable_files": "0",
+        "text_fields": "0",
+        "active": "1",
+        "redirect_type": "404",
+        "id_type_redirected": "0",
+        "available_for_order": "1",
+        "available_date": "0000-00-00",
+        "show_condition": "0",
+        "condition": "new",
+        "show_price": "1",
+        "indexed": "1",
+        "visibility": "both",
+        "cache_is_pack": "0",
+        "cache_has_attachments": "0",
+        "is_virtual": "0",
+        "cache_default_attribute": "0",
+        "date_add": "2023-09-06 10:03:41",
+        "date_upd": "2023-09-26 14:12:07",
+        "advanced_stock_management": "0",
+        "pack_stock_type": "3",
+        "state": "1",
+        "product_type": "",
+        "id_shop": "1",
+        "id_lang": "1",
+        "description": "",
+        "description_short": "<p>High speed compact Durable portable Design</p>",
+        "link_rewrite": "flash-disk-metal-8gb-itel",
+        "meta_description": "",
+        "meta_keywords": "",
+        "meta_title": "",
+        "name": "Flash Disk Metal IFD-82 8GB iTEL",
+        "available_now": "",
+        "available_later": "",
+        "delivery_in_stock": "",
+        "delivery_out_stock": "",
+        "new": "0",
+        "price_min": "11.610001",
+        "price_max": "12.900000",
+        "id_product_attribute": "0",
+        "allow_oosp": 0,
+        "cover_image_id": "73",
+        "category": "accessoires",
+        "category_name": "Accessoires",
+        "link": "http://localhost/nety/fr/accessoires/92-flash-disk-metal-8gb-itel.html",
+        "attribute_price": 0,
+        "price_tax_exc": 10.850468,
+        "price_without_reduction": 12.9,
+        "price_without_reduction_without_tax": 12.056075,
+        "reduction": 1.29,
+        "reduction_without_tax": 1.205608,
+        "specific_prices": {
+            "id_specific_price": "2150",
+            "id_specific_price_rule": "0",
+            "id_cart": "0",
+            "id_product": "92",
+            "id_shop": "1",
+            "id_shop_group": "0",
+            "id_currency": "0",
+            "id_country": "0",
+            "id_group": "0",
+            "id_customer": "0",
+            "id_product_attribute": "0",
+            "price": "-1.000000",
+            "from_quantity": "1",
+            "reduction": "0.100000",
+            "reduction_tax": "1",
+            "reduction_type": "percentage",
+            "from": "0000-00-00 00:00:00",
+            "to": "0000-00-00 00:00:00",
+            "score": "16"
+        },
+        "quantity_all_versions": 10,
+        "id_image": "fr-default",
+        "features": [
+            {
+                "name": "Capacité",
+                "value": "8 GB",
+                "id_feature": "17",
+                "position": "15"
+            },
+            {
+                "name": "Vitesse",
+                "value": "30 MS/S",
+                "id_feature": "18",
+                "position": "16"
+            }
+        ],
+        "attachments": [],
+        "virtual": 0,
+        "pack": 0,
+        "packItems": [],
+        "nopackprice": 0,
+        "customization_required": false,
+        "rate": 7,
+        "tax_name": "TN TVA 7%",
+        "ecotax_rate": 0,
+        "unit_price": "",
+        "images": [
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/73-cart_default/flash-disk-metal-8gb-itel.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/73-small_default/flash-disk-metal-8gb-itel.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/73-medium_default/flash-disk-metal-8gb-itel.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/73-home_default/flash-disk-metal-8gb-itel.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/73-large_default/flash-disk-metal-8gb-itel.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/73-extra_large_default/flash-disk-metal-8gb-itel.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/73-cart_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/73-home_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/73-extra_large_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "73",
+                "cover": "1",
+                "position": "1",
+                "associatedVariants": []
+            }
+        ],
+        "default_image": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/73-cart_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/73-small_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/73-medium_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/73-home_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/73-large_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/73-extra_large_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/73-cart_default/flash-disk-metal-8gb-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/73-home_default/flash-disk-metal-8gb-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/73-extra_large_default/flash-disk-metal-8gb-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "73",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "cover": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/73-cart_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/73-small_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/73-medium_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/73-home_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/73-large_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/73-extra_large_default/flash-disk-metal-8gb-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/73-cart_default/flash-disk-metal-8gb-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/73-home_default/flash-disk-metal-8gb-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/73-extra_large_default/flash-disk-metal-8gb-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "73",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "has_discount": true,
+        "discount_type": "percentage",
+        "discount_percentage": "-10%",
+        "discount_percentage_absolute": "10%",
+        "discount_amount": "1,290 TND",
+        "discount_amount_to_display": "-1,290 TND",
+        "price_amount": 11.61,
+        "regular_price_amount": 12.9,
+        "regular_price": "12,900 TND",
+        "discount_to_display": "1,290 TND",
+        "unit_price_full": "",
+        "show_availability": true,
+        "availability_date": null,
+        "availability_message": "En stock",
+        "availability": "available"
+    },
+    {
+        "id_product": "93",
+        "id_supplier": "0",
+        "id_manufacturer": "2",
+        "id_category_default": "9",
+        "id_shop_default": "1",
+        "id_tax_rules_group": "3",
+        "on_sale": "1",
+        "online_only": "0",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": "",
+        "ecotax": "0.000000",
+        "quantity": 4,
+        "minimal_quantity": "1",
+        "low_stock_threshold": null,
+        "low_stock_alert": "0",
+        "price": "14,310 TND",
+        "wholesale_price": "0.000000",
+        "unity": "",
+        "unit_price_ratio": "0.000000",
+        "additional_shipping_cost": "0.000000",
+        "reference": "",
+        "supplier_reference": "",
+        "location": "",
+        "width": "0.000000",
+        "height": "0.000000",
+        "depth": "0.000000",
+        "weight": "0.000000",
+        "out_of_stock": "0",
+        "additional_delivery_times": "1",
+        "quantity_discount": "0",
+        "customizable": "0",
+        "uploadable_files": "0",
+        "text_fields": "0",
+        "active": "1",
+        "redirect_type": "404",
+        "id_type_redirected": "0",
+        "available_for_order": "1",
+        "available_date": "0000-00-00",
+        "show_condition": "0",
+        "condition": "new",
+        "show_price": "1",
+        "indexed": "1",
+        "visibility": "both",
+        "cache_is_pack": "0",
+        "cache_has_attachments": "0",
+        "is_virtual": "0",
+        "cache_default_attribute": "0",
+        "date_add": "2023-09-06 10:18:48",
+        "date_upd": "2023-09-26 14:11:38",
+        "advanced_stock_management": "0",
+        "pack_stock_type": "0",
+        "state": "1",
+        "product_type": "",
+        "id_shop": "1",
+        "id_lang": "1",
+        "description": "",
+        "description_short": "<p>High speed Compact Durable Design</p>",
+        "link_rewrite": "flash-disk-metal-ifd-162-16g-itel",
+        "meta_description": "",
+        "meta_keywords": "",
+        "meta_title": "",
+        "name": "Flash disk Metal IFD-162 16G iTEL",
+        "available_now": "",
+        "available_later": "",
+        "delivery_in_stock": "",
+        "delivery_out_stock": "",
+        "new": "0",
+        "price_min": "14.310000",
+        "price_max": "15.900000",
+        "id_product_attribute": "0",
+        "allow_oosp": 0,
+        "cover_image_id": "74",
+        "category": "accessoires",
+        "category_name": "Accessoires",
+        "link": "http://localhost/nety/fr/accessoires/93-flash-disk-metal-ifd-162-16g-itel.html",
+        "attribute_price": 0,
+        "price_tax_exc": 13.373832,
+        "price_without_reduction": 15.9,
+        "price_without_reduction_without_tax": 14.859813,
+        "reduction": 1.59,
+        "reduction_without_tax": 1.485981,
+        "specific_prices": {
+            "id_specific_price": "2149",
+            "id_specific_price_rule": "0",
+            "id_cart": "0",
+            "id_product": "93",
+            "id_shop": "1",
+            "id_shop_group": "0",
+            "id_currency": "0",
+            "id_country": "0",
+            "id_group": "0",
+            "id_customer": "0",
+            "id_product_attribute": "0",
+            "price": "-1.000000",
+            "from_quantity": "1",
+            "reduction": "0.100000",
+            "reduction_tax": "1",
+            "reduction_type": "percentage",
+            "from": "0000-00-00 00:00:00",
+            "to": "0000-00-00 00:00:00",
+            "score": "16"
+        },
+        "quantity_all_versions": 4,
+        "id_image": "fr-default",
+        "features": [
+            {
+                "name": "Capacité",
+                "value": "16 GB",
+                "id_feature": "17",
+                "position": "15"
+            },
+            {
+                "name": "Vitesse",
+                "value": "30 MS/S",
+                "id_feature": "18",
+                "position": "16"
+            }
+        ],
+        "attachments": [],
+        "virtual": 0,
+        "pack": 0,
+        "packItems": [],
+        "nopackprice": 0,
+        "customization_required": false,
+        "rate": 7,
+        "tax_name": "TN TVA 7%",
+        "ecotax_rate": 0,
+        "unit_price": "",
+        "images": [
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/74-cart_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/74-small_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/74-medium_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/74-home_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/74-large_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/74-extra_large_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/74-cart_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/74-home_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/74-extra_large_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "74",
+                "cover": "1",
+                "position": "1",
+                "associatedVariants": []
+            }
+        ],
+        "default_image": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/74-cart_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/74-small_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/74-medium_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/74-home_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/74-large_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/74-extra_large_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/74-cart_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/74-home_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/74-extra_large_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "74",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "cover": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/74-cart_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/74-small_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/74-medium_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/74-home_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/74-large_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/74-extra_large_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/74-cart_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/74-home_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/74-extra_large_default/flash-disk-metal-ifd-162-16g-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "74",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "has_discount": true,
+        "discount_type": "percentage",
+        "discount_percentage": "-10%",
+        "discount_percentage_absolute": "10%",
+        "discount_amount": "1,590 TND",
+        "discount_amount_to_display": "-1,590 TND",
+        "price_amount": 14.31,
+        "regular_price_amount": 15.9,
+        "regular_price": "15,900 TND",
+        "discount_to_display": "1,590 TND",
+        "unit_price_full": "",
+        "show_availability": true,
+        "availability_date": null,
+        "availability_message": "En stock",
+        "availability": "available"
+    },
+    {
+        "id_product": "99",
+        "id_supplier": "0",
+        "id_manufacturer": "2",
+        "id_category_default": "9",
+        "id_shop_default": "1",
+        "id_tax_rules_group": "1",
+        "on_sale": "0",
+        "online_only": "0",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": "",
+        "ecotax": "0.000000",
+        "quantity": 9,
+        "minimal_quantity": "1",
+        "low_stock_threshold": null,
+        "low_stock_alert": "0",
+        "price": "15,120 TND",
+        "wholesale_price": "0.000000",
+        "unity": "",
+        "unit_price_ratio": "0.000000",
+        "additional_shipping_cost": "0.000000",
+        "reference": "",
+        "supplier_reference": "",
+        "location": "",
+        "width": "0.000000",
+        "height": "0.000000",
+        "depth": "0.000000",
+        "weight": "0.000000",
+        "out_of_stock": "0",
+        "additional_delivery_times": "1",
+        "quantity_discount": "0",
+        "customizable": "0",
+        "uploadable_files": "0",
+        "text_fields": "0",
+        "active": "1",
+        "redirect_type": "404",
+        "id_type_redirected": "0",
+        "available_for_order": "1",
+        "available_date": "0000-00-00",
+        "show_condition": "0",
+        "condition": "new",
+        "show_price": "1",
+        "indexed": "1",
+        "visibility": "both",
+        "cache_is_pack": "0",
+        "cache_has_attachments": "0",
+        "is_virtual": "0",
+        "cache_default_attribute": "0",
+        "date_add": "2023-09-07 14:56:03",
+        "date_upd": "2023-09-11 12:01:22",
+        "advanced_stock_management": "0",
+        "pack_stock_type": "3",
+        "state": "1",
+        "product_type": "",
+        "id_shop": "1",
+        "id_lang": "1",
+        "description": "",
+        "description_short": "<p><span style=\"color:#232323;font-family:Poppins, sans-serif;font-size:15px;letter-spacing:0.8px;background-color:#ffffff;\">ITEL E51-Cable en métal- forte résistance-compatible J</span><span style=\"color:#232323;font-family:Poppins, sans-serif;\"><span style=\"font-size:15px;letter-spacing:0.8px;\">ack 3,5 mm</span></span><span style=\"background-color:#ffffff;color:#232323;font-family:Poppins, sans-serif;font-size:15px;letter-spacing:0.8px;\"> - large drive </span><span style=\"color:#232323;font-family:Poppins, sans-serif;\"><span style=\"font-size:15px;letter-spacing:0.8px;\">10mm-100 dB ± 3 dB- </span></span><span style=\"background-color:#ffffff;color:#232323;font-family:Poppins, sans-serif;font-size:15px;letter-spacing:0.8px;\">Longueure du Câble : 1.2m - Fréquence : 20Hz-20Khz - Couleur noir </span></p>\n<p><span style=\"background-color:#ffffff;color:#232323;font-family:Poppins, sans-serif;font-size:15px;letter-spacing:0.8px;\"></span></p>",
+        "link_rewrite": "ecouteur-filaire-e51-itel",
+        "meta_description": "",
+        "meta_keywords": "",
+        "meta_title": "",
+        "name": "Ecouteur Filaire E51 iTEL",
+        "available_now": "",
+        "available_later": "",
+        "delivery_in_stock": "",
+        "delivery_out_stock": "",
+        "new": "0",
+        "price_min": "15.120000",
+        "price_max": "18.900000",
+        "id_product_attribute": "0",
+        "allow_oosp": 0,
+        "cover_image_id": "84",
+        "category": "accessoires",
+        "category_name": "Accessoires",
+        "link": "http://localhost/nety/fr/accessoires/99-ecouteur-filaire-e51-itel.html",
+        "attribute_price": 0,
+        "price_tax_exc": 12.705882,
+        "price_without_reduction": 18.9,
+        "price_without_reduction_without_tax": 15.882353,
+        "reduction": 3.78,
+        "reduction_without_tax": 3.176471,
+        "specific_prices": {
+            "id_specific_price": "2113",
+            "id_specific_price_rule": "0",
+            "id_cart": "0",
+            "id_product": "99",
+            "id_shop": "1",
+            "id_shop_group": "0",
+            "id_currency": "0",
+            "id_country": "0",
+            "id_group": "0",
+            "id_customer": "0",
+            "id_product_attribute": "0",
+            "price": "-1.000000",
+            "from_quantity": "1",
+            "reduction": "0.200000",
+            "reduction_tax": "1",
+            "reduction_type": "percentage",
+            "from": "0000-00-00 00:00:00",
+            "to": "0000-00-00 00:00:00",
+            "score": "16"
+        },
+        "quantity_all_versions": 9,
+        "id_image": "fr-default",
+        "features": [],
+        "attachments": [],
+        "virtual": 0,
+        "pack": 0,
+        "packItems": [],
+        "nopackprice": 0,
+        "customization_required": false,
+        "rate": 19,
+        "tax_name": "TN TVA 19%",
+        "ecotax_rate": 0,
+        "unit_price": "",
+        "images": [
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/82-cart_default/ecouteur-filaire-e51-itel.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/82-small_default/ecouteur-filaire-e51-itel.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/82-medium_default/ecouteur-filaire-e51-itel.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/82-home_default/ecouteur-filaire-e51-itel.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/82-large_default/ecouteur-filaire-e51-itel.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/82-extra_large_default/ecouteur-filaire-e51-itel.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/82-cart_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/82-home_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/82-extra_large_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "82",
+                "cover": null,
+                "position": "1",
+                "associatedVariants": []
+            },
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/84-cart_default/ecouteur-filaire-e51-itel.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/84-small_default/ecouteur-filaire-e51-itel.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/84-medium_default/ecouteur-filaire-e51-itel.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/84-home_default/ecouteur-filaire-e51-itel.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/84-large_default/ecouteur-filaire-e51-itel.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/84-extra_large_default/ecouteur-filaire-e51-itel.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/84-cart_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/84-home_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/84-extra_large_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "84",
+                "cover": "1",
+                "position": "2",
+                "associatedVariants": []
+            }
+        ],
+        "default_image": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/84-cart_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/84-small_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/84-medium_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/84-home_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/84-large_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/84-extra_large_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/84-cart_default/ecouteur-filaire-e51-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/84-home_default/ecouteur-filaire-e51-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/84-extra_large_default/ecouteur-filaire-e51-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "84",
+            "cover": "1",
+            "position": "2",
+            "associatedVariants": []
+        },
+        "cover": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/84-cart_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/84-small_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/84-medium_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/84-home_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/84-large_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/84-extra_large_default/ecouteur-filaire-e51-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/84-cart_default/ecouteur-filaire-e51-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/84-home_default/ecouteur-filaire-e51-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/84-extra_large_default/ecouteur-filaire-e51-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "84",
+            "cover": "1",
+            "position": "2",
+            "associatedVariants": []
+        },
+        "has_discount": true,
+        "discount_type": "percentage",
+        "discount_percentage": "-20%",
+        "discount_percentage_absolute": "20%",
+        "discount_amount": "3,780 TND",
+        "discount_amount_to_display": "-3,780 TND",
+        "price_amount": 15.12,
+        "regular_price_amount": 18.9,
+        "regular_price": "18,900 TND",
+        "discount_to_display": "3,780 TND",
+        "unit_price_full": "",
+        "show_availability": true,
+        "availability_date": null,
+        "availability_message": "En stock",
+        "availability": "available"
+    },
+    {
+        "id_product": "96",
+        "id_supplier": "0",
+        "id_manufacturer": "2",
+        "id_category_default": "9",
+        "id_shop_default": "1",
+        "id_tax_rules_group": "1",
+        "on_sale": "0",
+        "online_only": "0",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": "",
+        "ecotax": "0.000000",
+        "quantity": 5,
+        "minimal_quantity": "1",
+        "low_stock_threshold": null,
+        "low_stock_alert": "0",
+        "price": "15,120 TND",
+        "wholesale_price": "0.000000",
+        "unity": "",
+        "unit_price_ratio": "0.000000",
+        "additional_shipping_cost": "0.000000",
+        "reference": "",
+        "supplier_reference": "",
+        "location": "",
+        "width": "0.000000",
+        "height": "0.000000",
+        "depth": "0.000000",
+        "weight": "0.000000",
+        "out_of_stock": "0",
+        "additional_delivery_times": "1",
+        "quantity_discount": "0",
+        "customizable": "0",
+        "uploadable_files": "0",
+        "text_fields": "0",
+        "active": "1",
+        "redirect_type": "404",
+        "id_type_redirected": "0",
+        "available_for_order": "1",
+        "available_date": "0000-00-00",
+        "show_condition": "0",
+        "condition": "new",
+        "show_price": "1",
+        "indexed": "1",
+        "visibility": "both",
+        "cache_is_pack": "0",
+        "cache_has_attachments": "0",
+        "is_virtual": "0",
+        "cache_default_attribute": "0",
+        "date_add": "2023-09-07 14:36:21",
+        "date_upd": "2023-09-11 12:02:09",
+        "advanced_stock_management": "0",
+        "pack_stock_type": "3",
+        "state": "1",
+        "product_type": "",
+        "id_shop": "1",
+        "id_lang": "1",
+        "description": "",
+        "description_short": "<p><span style=\"color:#666666;font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;\">Chargeur Itel ICE-42 - </span><span style=\"font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;color:#d0121a;\"><span style=\"font-weight:bolder;\">Nombre de ports</span></span><span style=\"color:#666666;font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;\"> : 2 USB - </span><span style=\"font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;color:#d0121a;\"><span style=\"font-weight:bolder;\">Interface</span> </span><span style=\"color:#666666;font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;\">: Micro USB - Longueur du câble : 1m - Type : Europe type - Entrée :100V-240V-50-60Hz / 350mA - Sortie : 5.0V / 2A Max - </span><span style=\"font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;color:#d0121a;\"><span style=\"font-weight:bolder;\">Couleur</span></span><span style=\"color:#666666;font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;\"> : Noir</span></p>",
+        "link_rewrite": "chargeur-ice-42-2a-dual-output-itel",
+        "meta_description": "",
+        "meta_keywords": "",
+        "meta_title": "",
+        "name": "Chargeur ICE-42 2A Dual output iTEL",
+        "available_now": "",
+        "available_later": "",
+        "delivery_in_stock": "",
+        "delivery_out_stock": "",
+        "new": "0",
+        "price_min": "15.120000",
+        "price_max": "18.900000",
+        "id_product_attribute": "0",
+        "allow_oosp": 0,
+        "cover_image_id": "78",
+        "category": "accessoires",
+        "category_name": "Accessoires",
+        "link": "http://localhost/nety/fr/accessoires/96-chargeur-ice-42-2a-dual-output-itel.html",
+        "attribute_price": 0,
+        "price_tax_exc": 12.705882,
+        "price_without_reduction": 18.9,
+        "price_without_reduction_without_tax": 15.882353,
+        "reduction": 3.78,
+        "reduction_without_tax": 3.176471,
+        "specific_prices": {
+            "id_specific_price": "2114",
+            "id_specific_price_rule": "0",
+            "id_cart": "0",
+            "id_product": "96",
+            "id_shop": "1",
+            "id_shop_group": "0",
+            "id_currency": "0",
+            "id_country": "0",
+            "id_group": "0",
+            "id_customer": "0",
+            "id_product_attribute": "0",
+            "price": "-1.000000",
+            "from_quantity": "1",
+            "reduction": "0.200000",
+            "reduction_tax": "1",
+            "reduction_type": "percentage",
+            "from": "0000-00-00 00:00:00",
+            "to": "0000-00-00 00:00:00",
+            "score": "16"
+        },
+        "quantity_all_versions": 5,
+        "id_image": "fr-default",
+        "features": [],
+        "attachments": [],
+        "virtual": 0,
+        "pack": 0,
+        "packItems": [],
+        "nopackprice": 0,
+        "customization_required": false,
+        "rate": 19,
+        "tax_name": "TN TVA 19%",
+        "ecotax_rate": 0,
+        "unit_price": "",
+        "images": [
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/78-cart_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/78-small_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/78-medium_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/78-home_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/78-large_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/78-extra_large_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/78-cart_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/78-home_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/78-extra_large_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "78",
+                "cover": "1",
+                "position": "1",
+                "associatedVariants": []
+            },
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/79-cart_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/79-small_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/79-medium_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/79-home_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/79-large_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/79-extra_large_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/79-cart_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/79-home_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/79-extra_large_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "79",
+                "cover": null,
+                "position": "2",
+                "associatedVariants": []
+            }
+        ],
+        "default_image": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/78-cart_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/78-small_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/78-medium_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/78-home_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/78-large_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/78-extra_large_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/78-cart_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/78-home_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/78-extra_large_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "78",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "cover": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/78-cart_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/78-small_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/78-medium_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/78-home_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/78-large_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/78-extra_large_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/78-cart_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/78-home_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/78-extra_large_default/chargeur-ice-42-2a-dual-output-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "78",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "has_discount": true,
+        "discount_type": "percentage",
+        "discount_percentage": "-20%",
+        "discount_percentage_absolute": "20%",
+        "discount_amount": "3,780 TND",
+        "discount_amount_to_display": "-3,780 TND",
+        "price_amount": 15.12,
+        "regular_price_amount": 18.9,
+        "regular_price": "18,900 TND",
+        "discount_to_display": "3,780 TND",
+        "unit_price_full": "",
+        "show_availability": true,
+        "availability_date": null,
+        "availability_message": "En stock",
+        "availability": "available"
+    },
+    {
+        "id_product": "94",
+        "id_supplier": "0",
+        "id_manufacturer": "2",
+        "id_category_default": "9",
+        "id_shop_default": "1",
+        "id_tax_rules_group": "3",
+        "on_sale": "1",
+        "online_only": "0",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": "",
+        "ecotax": "0.000000",
+        "quantity": 5,
+        "minimal_quantity": "1",
+        "low_stock_threshold": null,
+        "low_stock_alert": "0",
+        "price": "17,910 TND",
+        "wholesale_price": "0.000000",
+        "unity": "",
+        "unit_price_ratio": "0.000000",
+        "additional_shipping_cost": "0.000000",
+        "reference": "",
+        "supplier_reference": "",
+        "location": "",
+        "width": "0.000000",
+        "height": "0.000000",
+        "depth": "0.000000",
+        "weight": "0.000000",
+        "out_of_stock": "0",
+        "additional_delivery_times": "1",
+        "quantity_discount": "0",
+        "customizable": "0",
+        "uploadable_files": "0",
+        "text_fields": "0",
+        "active": "1",
+        "redirect_type": "404",
+        "id_type_redirected": "0",
+        "available_for_order": "1",
+        "available_date": "0000-00-00",
+        "show_condition": "0",
+        "condition": "new",
+        "show_price": "1",
+        "indexed": "1",
+        "visibility": "both",
+        "cache_is_pack": "0",
+        "cache_has_attachments": "0",
+        "is_virtual": "0",
+        "cache_default_attribute": "0",
+        "date_add": "2023-09-06 10:22:02",
+        "date_upd": "2023-09-26 14:11:11",
+        "advanced_stock_management": "0",
+        "pack_stock_type": "3",
+        "state": "1",
+        "product_type": "",
+        "id_shop": "1",
+        "id_lang": "1",
+        "description": "",
+        "description_short": "<p>High speed Compact Durable Portable Design</p>",
+        "link_rewrite": "flash-disk-metal-ifd-322-32g-itel",
+        "meta_description": "",
+        "meta_keywords": "",
+        "meta_title": "",
+        "name": "Flash Disk Metal IFD-322 32G iTEL",
+        "available_now": "",
+        "available_later": "",
+        "delivery_in_stock": "",
+        "delivery_out_stock": "",
+        "new": "0",
+        "price_min": "17.910000",
+        "price_max": "19.900000",
+        "id_product_attribute": "0",
+        "allow_oosp": 0,
+        "cover_image_id": "75",
+        "category": "accessoires",
+        "category_name": "Accessoires",
+        "link": "http://localhost/nety/fr/accessoires/94-flash-disk-metal-ifd-322-32g-itel.html",
+        "attribute_price": 0,
+        "price_tax_exc": 16.738318,
+        "price_without_reduction": 19.9,
+        "price_without_reduction_without_tax": 18.598131,
+        "reduction": 1.99,
+        "reduction_without_tax": 1.859813,
+        "specific_prices": {
+            "id_specific_price": "2148",
+            "id_specific_price_rule": "0",
+            "id_cart": "0",
+            "id_product": "94",
+            "id_shop": "1",
+            "id_shop_group": "0",
+            "id_currency": "0",
+            "id_country": "0",
+            "id_group": "0",
+            "id_customer": "0",
+            "id_product_attribute": "0",
+            "price": "-1.000000",
+            "from_quantity": "1",
+            "reduction": "0.100000",
+            "reduction_tax": "1",
+            "reduction_type": "percentage",
+            "from": "0000-00-00 00:00:00",
+            "to": "0000-00-00 00:00:00",
+            "score": "16"
+        },
+        "quantity_all_versions": 5,
+        "id_image": "fr-default",
+        "features": [
+            {
+                "name": "Capacité",
+                "value": "32 GB",
+                "id_feature": "17",
+                "position": "15"
+            },
+            {
+                "name": "Vitesse",
+                "value": "30 MS/S",
+                "id_feature": "18",
+                "position": "16"
+            }
+        ],
+        "attachments": [],
+        "virtual": 0,
+        "pack": 0,
+        "packItems": [],
+        "nopackprice": 0,
+        "customization_required": false,
+        "rate": 7,
+        "tax_name": "TN TVA 7%",
+        "ecotax_rate": 0,
+        "unit_price": "",
+        "images": [
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/75-cart_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/75-small_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/75-medium_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/75-home_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/75-large_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/75-extra_large_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/75-cart_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/75-home_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/75-extra_large_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "75",
+                "cover": "1",
+                "position": "1",
+                "associatedVariants": []
+            }
+        ],
+        "default_image": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/75-cart_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/75-small_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/75-medium_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/75-home_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/75-large_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/75-extra_large_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/75-cart_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/75-home_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/75-extra_large_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "75",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "cover": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/75-cart_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/75-small_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/75-medium_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/75-home_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/75-large_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/75-extra_large_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/75-cart_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/75-home_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/75-extra_large_default/flash-disk-metal-ifd-322-32g-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "75",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "has_discount": true,
+        "discount_type": "percentage",
+        "discount_percentage": "-10%",
+        "discount_percentage_absolute": "10%",
+        "discount_amount": "1,990 TND",
+        "discount_amount_to_display": "-1,990 TND",
+        "price_amount": 17.91,
+        "regular_price_amount": 19.9,
+        "regular_price": "19,900 TND",
+        "discount_to_display": "1,990 TND",
+        "unit_price_full": "",
+        "show_availability": true,
+        "availability_date": null,
+        "availability_message": "En stock",
+        "availability": "available"
+    },
+    {
+        "id_product": "100",
+        "id_supplier": "0",
+        "id_manufacturer": "2",
+        "id_category_default": "9",
+        "id_shop_default": "1",
+        "id_tax_rules_group": "1",
+        "on_sale": "0",
+        "online_only": "0",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": "",
+        "ecotax": "0.000000",
+        "quantity": 5,
+        "minimal_quantity": "1",
+        "low_stock_threshold": null,
+        "low_stock_alert": "0",
+        "price": "35,010 TND",
+        "wholesale_price": "0.000000",
+        "unity": "",
+        "unit_price_ratio": "0.000000",
+        "additional_shipping_cost": "0.000000",
+        "reference": "",
+        "supplier_reference": "",
+        "location": "",
+        "width": "0.000000",
+        "height": "0.000000",
+        "depth": "0.000000",
+        "weight": "0.000000",
+        "out_of_stock": "0",
+        "additional_delivery_times": "1",
+        "quantity_discount": "0",
+        "customizable": "0",
+        "uploadable_files": "0",
+        "text_fields": "0",
+        "active": "1",
+        "redirect_type": "404",
+        "id_type_redirected": "0",
+        "available_for_order": "1",
+        "available_date": "0000-00-00",
+        "show_condition": "0",
+        "condition": "new",
+        "show_price": "1",
+        "indexed": "1",
+        "visibility": "both",
+        "cache_is_pack": "0",
+        "cache_has_attachments": "0",
+        "is_virtual": "0",
+        "cache_default_attribute": "0",
+        "date_add": "2023-09-07 15:27:24",
+        "date_upd": "2023-09-26 14:14:26",
+        "advanced_stock_management": "0",
+        "pack_stock_type": "3",
+        "state": "1",
+        "product_type": "",
+        "id_shop": "1",
+        "id_lang": "1",
+        "description": "",
+        "description_short": "<p><span style=\"color:#666666;font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;\">Casque Bluetooth itel IEB-33 - </span><span style=\"font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;color:#d0121a;\"><span style=\"font-weight:bolder;\">Technologie de Connectivité</span></span><span style=\"color:#666666;font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;\">: Bluetooth - </span><span style=\"font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;color:#d0121a;\"><span style=\"font-weight:bolder;\">Capacité de batterie</span></span><span style=\"color:#666666;font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;\"> : 110 mAh - </span><span style=\"font-weight:bolder;font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;color:#d0121a;\">Autonomie : </span><span style=\"color:#666666;font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;\">09 heures (70 % de volume) heures de lecture, 8 heures de conversation, 200 heures en veille - Distance de fonctionnement : 10 M - </span><span style=\"font-family:Poppins, Helvetica, Arial, 'sans-serif';font-size:15px;text-align:justify;background-color:#ffffff;color:#2445a2;\"><span style=\"font-weight:bolder;\">Résistant à l'eau IPX5</span></span></p>",
+        "link_rewrite": "earbuds-ieb-33-sport-itel",
+        "meta_description": "",
+        "meta_keywords": "",
+        "meta_title": "",
+        "name": "Earbuds IEB-33 Sport iTEL",
+        "available_now": "",
+        "available_later": "",
+        "delivery_in_stock": "",
+        "delivery_out_stock": "",
+        "new": "0",
+        "price_min": "35.010000",
+        "price_max": "38.900000",
+        "id_product_attribute": "0",
+        "allow_oosp": 0,
+        "cover_image_id": "85",
+        "category": "accessoires",
+        "category_name": "Accessoires",
+        "link": "http://localhost/nety/fr/accessoires/100-earbuds-ieb-33-sport-itel.html",
+        "attribute_price": 0,
+        "price_tax_exc": 29.420168,
+        "price_without_reduction": 38.9,
+        "price_without_reduction_without_tax": 32.689076,
+        "reduction": 3.89,
+        "reduction_without_tax": 3.268908,
+        "specific_prices": {
+            "id_specific_price": "2151",
+            "id_specific_price_rule": "0",
+            "id_cart": "0",
+            "id_product": "100",
+            "id_shop": "1",
+            "id_shop_group": "0",
+            "id_currency": "0",
+            "id_country": "0",
+            "id_group": "0",
+            "id_customer": "0",
+            "id_product_attribute": "0",
+            "price": "-1.000000",
+            "from_quantity": "1",
+            "reduction": "0.100000",
+            "reduction_tax": "1",
+            "reduction_type": "percentage",
+            "from": "0000-00-00 00:00:00",
+            "to": "0000-00-00 00:00:00",
+            "score": "16"
+        },
+        "quantity_all_versions": 5,
+        "id_image": "fr-default",
+        "features": [],
+        "attachments": [],
+        "virtual": 0,
+        "pack": 0,
+        "packItems": [],
+        "nopackprice": 0,
+        "customization_required": false,
+        "rate": 19,
+        "tax_name": "TN TVA 19%",
+        "ecotax_rate": 0,
+        "unit_price": "",
+        "images": [
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/85-cart_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/85-small_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/85-medium_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/85-home_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/85-large_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/85-extra_large_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/85-cart_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/85-home_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/85-extra_large_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "85",
+                "cover": "1",
+                "position": "1",
+                "associatedVariants": []
+            },
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/86-cart_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/86-small_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/86-medium_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/86-home_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/86-large_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/86-extra_large_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/86-cart_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/86-home_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/86-extra_large_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "86",
+                "cover": null,
+                "position": "2",
+                "associatedVariants": []
+            },
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/87-cart_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/87-small_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/87-medium_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/87-home_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/87-large_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/87-extra_large_default/earbuds-ieb-33-sport-itel.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/87-cart_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/87-home_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/87-extra_large_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "87",
+                "cover": null,
+                "position": "3",
+                "associatedVariants": []
+            }
+        ],
+        "default_image": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/85-cart_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/85-small_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/85-medium_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/85-home_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/85-large_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/85-extra_large_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/85-cart_default/earbuds-ieb-33-sport-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/85-home_default/earbuds-ieb-33-sport-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/85-extra_large_default/earbuds-ieb-33-sport-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "85",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "cover": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/85-cart_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/85-small_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/85-medium_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/85-home_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/85-large_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/85-extra_large_default/earbuds-ieb-33-sport-itel.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/85-cart_default/earbuds-ieb-33-sport-itel.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/85-home_default/earbuds-ieb-33-sport-itel.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/85-extra_large_default/earbuds-ieb-33-sport-itel.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "85",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "has_discount": true,
+        "discount_type": "percentage",
+        "discount_percentage": "-10%",
+        "discount_percentage_absolute": "10%",
+        "discount_amount": "3,890 TND",
+        "discount_amount_to_display": "-3,890 TND",
+        "price_amount": 35.01,
+        "regular_price_amount": 38.9,
+        "regular_price": "38,900 TND",
+        "discount_to_display": "3,890 TND",
+        "unit_price_full": "",
+        "show_availability": true,
+        "availability_date": null,
+        "availability_message": "En stock",
+        "availability": "available"
+    },
+    {
+        "id_product": "102",
+        "id_supplier": "0",
+        "id_manufacturer": "2",
+        "id_category_default": "9",
+        "id_shop_default": "1",
+        "id_tax_rules_group": "1",
+        "on_sale": "1",
+        "online_only": "0",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": "",
+        "ecotax": "0.000000",
+        "quantity": 4,
+        "minimal_quantity": "1",
+        "low_stock_threshold": null,
+        "low_stock_alert": "0",
+        "price": "47,200 TND",
+        "wholesale_price": "0.000000",
+        "unity": "",
+        "unit_price_ratio": "0.000000",
+        "additional_shipping_cost": "0.000000",
+        "reference": "",
+        "supplier_reference": "",
+        "location": "",
+        "width": "0.000000",
+        "height": "0.000000",
+        "depth": "0.000000",
+        "weight": "0.000000",
+        "out_of_stock": "0",
+        "additional_delivery_times": "1",
+        "quantity_discount": "0",
+        "customizable": "0",
+        "uploadable_files": "0",
+        "text_fields": "0",
+        "active": "1",
+        "redirect_type": "404",
+        "id_type_redirected": "0",
+        "available_for_order": "1",
+        "available_date": "0000-00-00",
+        "show_condition": "0",
+        "condition": "new",
+        "show_price": "1",
+        "indexed": "1",
+        "visibility": "both",
+        "cache_is_pack": "0",
+        "cache_has_attachments": "0",
+        "is_virtual": "0",
+        "cache_default_attribute": "0",
+        "date_add": "2023-09-07 16:46:27",
+        "date_upd": "2023-09-26 14:24:34",
+        "advanced_stock_management": "0",
+        "pack_stock_type": "3",
+        "state": "1",
+        "product_type": "",
+        "id_shop": "1",
+        "id_lang": "1",
+        "description": "",
+        "description_short": "<p><span style=\"font-family:'Open Sans', sans-serif;font-size:14px;background-color:#f7f7f7;\">Tondeuse ITEL ISS-13  3en1- Alimentation: </span><span style=\"font-weight:bolder;font-family:'Open Sans', sans-serif;font-size:14px;background-color:#f7f7f7;\"><span style=\"color:#e03e2d;\">Batterie </span>- </span><span style=\"font-family:'Open Sans', sans-serif;font-size:14px;background-color:#f7f7f7;\">Autonomie de la batterie: </span><span style=\"font-family:'Open Sans', sans-serif;font-size:14px;background-color:#f7f7f7;color:#e03e2d;\"><span style=\"font-weight:bolder;\">50 minutes</span></span><span style=\"font-family:'Open Sans', sans-serif;font-size:14px;background-color:#f7f7f7;\"> -Matériau de la lame </span><span style=\"font-weight:bolder;font-family:'Open Sans', sans-serif;font-size:14px;background-color:#f7f7f7;\">Acier inoxydable</span><span style=\"font-family:'Open Sans', sans-serif;font-size:14px;background-color:#f7f7f7;\"> - Poids: 28 g - couleur: Noir</span></p>",
+        "link_rewrite": "tondeuse-itel-3en1-iss-13",
+        "meta_description": "",
+        "meta_keywords": "",
+        "meta_title": "",
+        "name": "Tondeuse Itel 3en1 ISS-13",
+        "available_now": "",
+        "available_later": "",
+        "delivery_in_stock": "",
+        "delivery_out_stock": "",
+        "new": "0",
+        "price_min": "47.200001",
+        "price_max": "59.000000",
+        "id_product_attribute": "0",
+        "allow_oosp": 0,
+        "cover_image_id": "91",
+        "category": "accessoires",
+        "category_name": "Accessoires",
+        "link": "http://localhost/nety/fr/accessoires/102-tondeuse-itel-3en1-iss-13.html",
+        "attribute_price": 0,
+        "price_tax_exc": 39.663866,
+        "price_without_reduction": 59,
+        "price_without_reduction_without_tax": 49.579832,
+        "reduction": 11.8,
+        "reduction_without_tax": 9.915966,
+        "specific_prices": {
+            "id_specific_price": "2152",
+            "id_specific_price_rule": "0",
+            "id_cart": "0",
+            "id_product": "102",
+            "id_shop": "1",
+            "id_shop_group": "0",
+            "id_currency": "0",
+            "id_country": "0",
+            "id_group": "0",
+            "id_customer": "0",
+            "id_product_attribute": "0",
+            "price": "-1.000000",
+            "from_quantity": "1",
+            "reduction": "0.200000",
+            "reduction_tax": "1",
+            "reduction_type": "percentage",
+            "from": "0000-00-00 00:00:00",
+            "to": "0000-00-00 00:00:00",
+            "score": "16"
+        },
+        "quantity_all_versions": 4,
+        "id_image": "fr-default",
+        "features": [],
+        "attachments": [],
+        "virtual": 0,
+        "pack": 0,
+        "packItems": [],
+        "nopackprice": 0,
+        "customization_required": false,
+        "rate": 19,
+        "tax_name": "TN TVA 19%",
+        "ecotax_rate": 0,
+        "unit_price": "",
+        "images": [
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/90-cart_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/90-small_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/90-medium_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/90-home_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/90-large_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/90-extra_large_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/90-cart_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/90-home_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/90-extra_large_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "90",
+                "cover": null,
+                "position": "1",
+                "associatedVariants": []
+            },
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/91-cart_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/91-small_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/91-medium_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/91-home_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/91-large_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/91-extra_large_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/91-cart_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/91-home_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/91-extra_large_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "91",
+                "cover": "1",
+                "position": "2",
+                "associatedVariants": []
+            },
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/92-cart_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/92-small_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/92-medium_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/92-home_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/92-large_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/92-extra_large_default/tondeuse-itel-3en1-iss-13.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/92-cart_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/92-home_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/92-extra_large_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "92",
+                "cover": null,
+                "position": "3",
+                "associatedVariants": []
+            }
+        ],
+        "default_image": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/91-cart_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/91-small_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/91-medium_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/91-home_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/91-large_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/91-extra_large_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/91-cart_default/tondeuse-itel-3en1-iss-13.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/91-home_default/tondeuse-itel-3en1-iss-13.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/91-extra_large_default/tondeuse-itel-3en1-iss-13.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "91",
+            "cover": "1",
+            "position": "2",
+            "associatedVariants": []
+        },
+        "cover": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/91-cart_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/91-small_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/91-medium_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/91-home_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/91-large_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/91-extra_large_default/tondeuse-itel-3en1-iss-13.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/91-cart_default/tondeuse-itel-3en1-iss-13.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/91-home_default/tondeuse-itel-3en1-iss-13.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/91-extra_large_default/tondeuse-itel-3en1-iss-13.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "91",
+            "cover": "1",
+            "position": "2",
+            "associatedVariants": []
+        },
+        "has_discount": true,
+        "discount_type": "percentage",
+        "discount_percentage": "-20%",
+        "discount_percentage_absolute": "20%",
+        "discount_amount": "11,800 TND",
+        "discount_amount_to_display": "-11,800 TND",
+        "price_amount": 47.2,
+        "regular_price_amount": 59,
+        "regular_price": "59,000 TND",
+        "discount_to_display": "11,800 TND",
+        "unit_price_full": "",
+        "show_availability": true,
+        "availability_date": null,
+        "availability_message": "En stock",
+        "availability": "available"
+    },
+    {
+        "id_product": "25",
+        "id_supplier": "0",
+        "id_manufacturer": "2",
+        "id_category_default": "9",
+        "id_shop_default": "1",
+        "id_tax_rules_group": "3",
+        "on_sale": "1",
+        "online_only": "0",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": "",
+        "ecotax": "0.000000",
+        "quantity": 5,
+        "minimal_quantity": "1",
+        "low_stock_threshold": null,
+        "low_stock_alert": "0",
+        "price": "54,000 TND",
+        "wholesale_price": "0.000000",
+        "unity": "",
+        "unit_price_ratio": "0.000000",
+        "additional_shipping_cost": "0.000000",
+        "reference": "",
+        "supplier_reference": "",
+        "location": "SOUSSE",
+        "width": "0.000000",
+        "height": "0.000000",
+        "depth": "0.000000",
+        "weight": "0.000000",
+        "out_of_stock": "0",
+        "additional_delivery_times": "1",
+        "quantity_discount": "0",
+        "customizable": "0",
+        "uploadable_files": "0",
+        "text_fields": "0",
+        "active": "1",
+        "redirect_type": "404",
+        "id_type_redirected": "0",
+        "available_for_order": "1",
+        "available_date": "0000-00-00",
+        "show_condition": "0",
+        "condition": "new",
+        "show_price": "1",
+        "indexed": "1",
+        "visibility": "both",
+        "cache_is_pack": "0",
+        "cache_has_attachments": "0",
+        "is_virtual": "0",
+        "cache_default_attribute": "0",
+        "date_add": "2023-02-24 16:49:05",
+        "date_upd": "2023-09-07 16:34:52",
+        "advanced_stock_management": "0",
+        "pack_stock_type": "0",
+        "state": "1",
+        "product_type": "",
+        "id_shop": "1",
+        "id_lang": "1",
+        "description": "<p style=\"margin:0px;color:#999999;font-family:Rubik, sans-serif;font-size:13px;\"><span style=\"color:#050505;font-family:'Segoe UI Historic', 'Segoe UI', Helvetica, Arial, sans-serif;\"><span style=\"font-size:15px;white-space:pre-wrap;\">Bluetooth version: V5.0 </span></span></p>\n<p style=\"margin:0px;color:#999999;font-family:Rubik, sans-serif;font-size:13px;\"><span style=\"color:#050505;font-family:'Segoe UI Historic', 'Segoe UI', Helvetica, Arial, sans-serif;\"><span style=\"font-size:15px;white-space:pre-wrap;\">Batterie: batterie rechargeable 300mAh </span></span></p>\n<p style=\"margin:0px;color:#999999;font-family:Rubik, sans-serif;font-size:13px;\"><span style=\"color:#050505;font-family:'Segoe UI Historic', 'Segoe UI', Helvetica, Arial, sans-serif;\"><span style=\"font-size:15px;white-space:pre-wrap;\">Port de chargement: micro USB </span></span></p>\n<p style=\"margin:0px;color:#999999;font-family:Rubik, sans-serif;font-size:13px;\"><span style=\"color:#050505;font-family:'Segoe UI Historic', 'Segoe UI', Helvetica, Arial, sans-serif;\"><span style=\"font-size:15px;white-space:pre-wrap;\">Unités de pilote de haut-parleur: ~40mm, 100db ± 3db</span></span></p>\n<p style=\"margin:0px;color:#999999;font-family:Rubik, sans-serif;font-size:13px;\"><span style=\"color:#050505;font-family:'Segoe UI Historic', 'Segoe UI', Helvetica, Arial, sans-serif;\"><span style=\"font-size:15px;white-space:pre-wrap;\">Veille durée 40 heures</span></span></p>",
+        "description_short": "",
+        "link_rewrite": "casque-bluetooth-sans-fil-itel-n82",
+        "meta_description": "",
+        "meta_keywords": "",
+        "meta_title": "",
+        "name": "Casque Bluetooth IEB-82 iTEL",
+        "available_now": "",
+        "available_later": "",
+        "delivery_in_stock": "",
+        "delivery_out_stock": "",
+        "new": "0",
+        "price_min": "53.999998",
+        "price_max": "68.999999",
+        "id_product_attribute": "0",
+        "allow_oosp": 0,
+        "cover_image_id": "48",
+        "category": "accessoires",
+        "category_name": "Accessoires",
+        "link": "http://localhost/nety/fr/accessoires/25-casque-bluetooth-sans-fil-itel-n82.html",
+        "attribute_price": 0,
+        "price_tax_exc": 50.467288,
+        "price_without_reduction": 68.999999,
+        "price_without_reduction_without_tax": 64.48598,
+        "reduction": 15,
+        "reduction_without_tax": 14.018692,
+        "specific_prices": {
+            "id_specific_price": "2115",
+            "id_specific_price_rule": "0",
+            "id_cart": "0",
+            "id_product": "25",
+            "id_shop": "1",
+            "id_shop_group": "0",
+            "id_currency": "0",
+            "id_country": "0",
+            "id_group": "0",
+            "id_customer": "0",
+            "id_product_attribute": "0",
+            "price": "-1.000000",
+            "from_quantity": "1",
+            "reduction": "15.000000",
+            "reduction_tax": "1",
+            "reduction_type": "amount",
+            "from": "0000-00-00 00:00:00",
+            "to": "0000-00-00 00:00:00",
+            "score": "16"
+        },
+        "quantity_all_versions": 5,
+        "id_image": "fr-default",
+        "features": [
+            {
+                "name": "Batterie",
+                "value": "300mAh",
+                "id_feature": "7",
+                "position": "5"
+            },
+            {
+                "name": "Blutooth",
+                "value": "Version 5",
+                "id_feature": "13",
+                "position": "11"
+            },
+            {
+                "name": "Autonomie en veille",
+                "value": "40 heures",
+                "id_feature": "14",
+                "position": "12"
+            },
+            {
+                "name": "Distance de transmission",
+                "value": "10 mètres",
+                "id_feature": "15",
+                "position": "13"
+            }
+        ],
+        "attachments": [],
+        "virtual": 0,
+        "pack": 0,
+        "packItems": [],
+        "nopackprice": 0,
+        "customization_required": false,
+        "rate": 7,
+        "tax_name": "TN TVA 7%",
+        "ecotax_rate": 0,
+        "unit_price": "",
+        "images": [
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/48-cart_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/48-small_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/48-medium_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/48-home_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/48-large_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/48-extra_large_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/48-cart_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/48-home_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/48-extra_large_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "48",
+                "cover": "1",
+                "position": "2",
+                "associatedVariants": []
+            }
+        ],
+        "default_image": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/48-cart_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/48-small_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/48-medium_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/48-home_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/48-large_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/48-extra_large_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/48-cart_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/48-home_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/48-extra_large_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "48",
+            "cover": "1",
+            "position": "2",
+            "associatedVariants": []
+        },
+        "cover": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/48-cart_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/48-small_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/48-medium_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/48-home_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/48-large_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/48-extra_large_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/48-cart_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/48-home_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/48-extra_large_default/casque-bluetooth-sans-fil-itel-n82.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "48",
+            "cover": "1",
+            "position": "2",
+            "associatedVariants": []
+        },
+        "has_discount": true,
+        "discount_type": "amount",
+        "discount_percentage": "-1 500%",
+        "discount_percentage_absolute": "1 500%",
+        "discount_amount": "15,000 TND",
+        "discount_amount_to_display": "-15,000 TND",
+        "price_amount": 54,
+        "regular_price_amount": 68.999999,
+        "regular_price": "69,000 TND",
+        "discount_to_display": "15,000 TND",
+        "unit_price_full": "",
+        "show_availability": true,
+        "availability_date": null,
+        "availability_message": "En stock",
+        "availability": "available"
+    },
+    {
+        "id_product": "22",
+        "id_supplier": "0",
+        "id_manufacturer": "2",
+        "id_category_default": "9",
+        "id_shop_default": "1",
+        "id_tax_rules_group": "3",
+        "on_sale": "1",
+        "online_only": "0",
+        "ean13": "",
+        "isbn": "",
+        "upc": "",
+        "mpn": "",
+        "ecotax": "0.000000",
+        "quantity": 5,
+        "minimal_quantity": "1",
+        "low_stock_threshold": null,
+        "low_stock_alert": "0",
+        "price": "79,000 TND",
+        "wholesale_price": "0.000000",
+        "unity": "",
+        "unit_price_ratio": "0.000000",
+        "additional_shipping_cost": "0.000000",
+        "reference": "",
+        "supplier_reference": "",
+        "location": "SOUSSE",
+        "width": "0.000000",
+        "height": "0.000000",
+        "depth": "0.000000",
+        "weight": "0.000000",
+        "out_of_stock": "0",
+        "additional_delivery_times": "0",
+        "quantity_discount": "0",
+        "customizable": "0",
+        "uploadable_files": "0",
+        "text_fields": "0",
+        "active": "1",
+        "redirect_type": "404",
+        "id_type_redirected": "0",
+        "available_for_order": "1",
+        "available_date": null,
+        "show_condition": "0",
+        "condition": "new",
+        "show_price": "1",
+        "indexed": "1",
+        "visibility": "both",
+        "cache_is_pack": "0",
+        "cache_has_attachments": "0",
+        "is_virtual": "0",
+        "cache_default_attribute": "29",
+        "date_add": "2023-02-06 17:25:29",
+        "date_upd": "2023-09-26 14:23:16",
+        "advanced_stock_management": "0",
+        "pack_stock_type": "0",
+        "state": "1",
+        "product_type": "combinations",
+        "id_shop": "1",
+        "id_lang": "1",
+        "description": "<ul><li>Capacité de la batterie : 300 mAh (boîtier de charge)</li>\n<li>Temps de charge: 150 minutes</li>\n<li>Durabilité : IPX4 résistant aux éclaboussures</li>\n<li>Bluetooth : Bluetooth 5, prend en charge les codecs SBC et AAC</li>\n<li>Port de charge: USB-C</li>\n</ul>",
+        "description_short": "",
+        "link_rewrite": "itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws",
+        "meta_description": "",
+        "meta_keywords": "",
+        "meta_title": "",
+        "name": "Earbuds Bluetooth T1 NEO iTEL",
+        "available_now": "",
+        "available_later": "",
+        "delivery_in_stock": "",
+        "delivery_out_stock": "",
+        "new": "0",
+        "price_min": "67.150001",
+        "price_max": "79.000000",
+        "id_product_attribute": "29",
+        "allow_oosp": 0,
+        "cover_image_id": "14",
+        "category": "accessoires",
+        "category_name": "Accessoires",
+        "link": "http://localhost/nety/fr/accessoires/22-itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.html",
+        "attribute_price": 0,
+        "price_tax_exc": 73.831776,
+        "price_without_reduction": 79,
+        "price_without_reduction_without_tax": 73.831776,
+        "reduction": 0,
+        "reduction_without_tax": 0,
+        "specific_prices": false,
+        "quantity_all_versions": 10,
+        "id_image": "fr-default",
+        "features": [
+            {
+                "name": "Blutooth",
+                "value": "Version 5",
+                "id_feature": "13",
+                "position": "11"
+            },
+            {
+                "name": "Autonomie en veille",
+                "value": "5 heures",
+                "id_feature": "14",
+                "position": "12"
+            },
+            {
+                "name": "Distance de transmission",
+                "value": "10 mètres",
+                "id_feature": "15",
+                "position": "13"
+            },
+            {
+                "name": "Résistance à l'eau",
+                "value": "IPX5",
+                "id_feature": "16",
+                "position": "14"
+            }
+        ],
+        "attachments": [],
+        "virtual": 0,
+        "pack": 0,
+        "packItems": [],
+        "nopackprice": 0,
+        "customization_required": false,
+        "attributes": {
+            "1": {
+                "id_attribute": "1",
+                "id_attribute_group": "1",
+                "name": "Noir",
+                "group": "Couleur",
+                "reference": "",
+                "ean13": "",
+                "isbn": "",
+                "upc": "",
+                "mpn": ""
+            }
+        },
+        "rate": 7,
+        "tax_name": "TN TVA 7%",
+        "ecotax_rate": 0,
+        "unit_price": "",
+        "images": [
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/14-cart_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/14-small_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/14-medium_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/14-home_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/14-large_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/14-extra_large_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/14-cart_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/14-home_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/14-extra_large_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "14",
+                "cover": "1",
+                "position": "1",
+                "associatedVariants": []
+            },
+            {
+                "bySize": {
+                    "cart_default": {
+                        "url": "http://localhost/nety/93-cart_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                        "width": 125,
+                        "height": 125
+                    },
+                    "small_default": {
+                        "url": "http://localhost/nety/93-small_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                        "width": 150,
+                        "height": 150
+                    },
+                    "medium_default": {
+                        "url": "http://localhost/nety/93-medium_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                        "width": 270,
+                        "height": 270
+                    },
+                    "home_default": {
+                        "url": "http://localhost/nety/93-home_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                        "width": 380,
+                        "height": 380
+                    },
+                    "large_default": {
+                        "url": "http://localhost/nety/93-large_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                        "width": 490,
+                        "height": 490
+                    },
+                    "extra_large_default": {
+                        "url": "http://localhost/nety/93-extra_large_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                        "width": 570,
+                        "height": 570
+                    }
+                },
+                "small": {
+                    "url": "http://localhost/nety/93-cart_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "medium": {
+                    "url": "http://localhost/nety/93-home_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large": {
+                    "url": "http://localhost/nety/93-extra_large_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 570,
+                    "height": 570
+                },
+                "legend": "",
+                "id_image": "93",
+                "cover": null,
+                "position": "2",
+                "associatedVariants": []
+            }
+        ],
+        "default_image": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/14-cart_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/14-small_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/14-medium_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/14-home_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/14-large_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/14-extra_large_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/14-cart_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/14-home_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/14-extra_large_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "14",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "cover": {
+            "bySize": {
+                "cart_default": {
+                    "url": "http://localhost/nety/14-cart_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 125,
+                    "height": 125
+                },
+                "small_default": {
+                    "url": "http://localhost/nety/14-small_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 150,
+                    "height": 150
+                },
+                "medium_default": {
+                    "url": "http://localhost/nety/14-medium_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 270,
+                    "height": 270
+                },
+                "home_default": {
+                    "url": "http://localhost/nety/14-home_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 380,
+                    "height": 380
+                },
+                "large_default": {
+                    "url": "http://localhost/nety/14-large_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 490,
+                    "height": 490
+                },
+                "extra_large_default": {
+                    "url": "http://localhost/nety/14-extra_large_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                    "width": 570,
+                    "height": 570
+                }
+            },
+            "small": {
+                "url": "http://localhost/nety/14-cart_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                "width": 125,
+                "height": 125
+            },
+            "medium": {
+                "url": "http://localhost/nety/14-home_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                "width": 380,
+                "height": 380
+            },
+            "large": {
+                "url": "http://localhost/nety/14-extra_large_default/itel-ecouteurs-bluetooth-sans-fil-t1-neo-tws.jpg",
+                "width": 570,
+                "height": 570
+            },
+            "legend": "",
+            "id_image": "14",
+            "cover": "1",
+            "position": "1",
+            "associatedVariants": []
+        },
+        "has_discount": false,
+        "discount_type": null,
+        "discount_percentage": null,
+        "discount_percentage_absolute": null,
+        "discount_amount": null,
+        "discount_amount_to_display": null,
+        "price_amount": 79,
+        "regular_price_amount": 79,
+        "regular_price": "79,000 TND",
+        "discount_to_display": null,
+        "unit_price_full": "",
+        "show_availability": true,
+        "availability_date": null,
+        "availability_message": "En stock",
+        "availability": "available"
+    }
+]}
