@@ -1,16 +1,18 @@
 import { useRouter } from "next/router";
 import AdresseList from "../../components/adresseList";
 import Footer from "../../components/footer";
-import HeaderProfile from "../../components/headerProfile";
 import { useEffect, useState } from "react";
+import Header from "../../components/header";
 
 export default function OrderDetails() {
   const router = useRouter();
   const { orderId } = router.query; // Utilisation de la désconstruction pour récupérer orderId
-
+// console.log("iccccciiiiiiiii",orderId);
+// console.log("iccccciiiiiiiii",router.query);
   const [order, setOrder] = useState();
 
   async function getOrdersDetails(id_order) {
+    console.log("TEST",id_order)
     try {
       const response = await fetch(
         `/api/auth/orderDetails?id_order=${id_order}`,
@@ -18,6 +20,8 @@ export default function OrderDetails() {
           method: "GET",
         }
       );
+      // console.log("11111111",response)
+      // console.log("OOOOOOO",`/api/auth/orderDetails?id_order=${id_order}`)
       if (!response.ok) {
         throw new Error(
           "Erreur lors de la récupération des détails de la commande"
@@ -47,7 +51,7 @@ export default function OrderDetails() {
   console.log("Contenu de order :", order);
   return (
     <>
-      <HeaderProfile />
+      <Header />
       <div className="container pt-5">
         <div className="row pt-3">
           <div className="col-6">

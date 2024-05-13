@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import HeaderProfile from "../components/headerProfile";
+import Header from "../components/header";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Link from "next/link";
 import Footer from "../components/footer";
@@ -30,7 +30,7 @@ export default function Profile() {
 
   return (
     <>
-      <HeaderProfile />
+      <Header />
       <div className="container">
         <div className="row row-cols-1 row-cols-md-2 g-4">
           <div className="col">

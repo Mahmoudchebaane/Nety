@@ -1,8 +1,10 @@
+import { CategoryProduct } from "../categoryProducts";
+
 export default async function Register(req, res){
     const { email, password, firstName, lastName, phone } = req.body;
-
+console.log({ email, password, firstName, lastName, phone })
     const URL = process.env.NEXT_PUBLIC_PRESTASHOP_URL_API;
-    
+    console.log("iciiiiiii")
     try {
         const response = await fetch(`${URL}/rest/register`,{
             method: "POST",
@@ -11,7 +13,7 @@ export default async function Register(req, res){
             },
             body: JSON.stringify({ email, password, firstName, lastName, phone })
         });
-        console.log("ici profil data :"+response)
+        //console.log("ici profil data :", response)
 
         if (response.ok) {
             const data = await response.json();

@@ -5,17 +5,18 @@ export default function AdresseList({id_adresse}) {
 
   async function getAddressList() {
     try {
-      const response = await fetch(`/api/auth/adresseList?id_address=${id_adresse}`, {
+      const response = await fetch(`/api/auth/adresse?id_address=${id_adresse}`, {
         method: "GET",
       });
       const data = await response.json();
+      console.log("data :>> ", data);
       return data;
     } catch (error) {
       console.error("Erreur lors de la récupération des adresses:", error);
       return [];
     }
   }
-
+console.log("ID ADDR ", id_adresse);
   useEffect(() => {
     const fetchAdress = async () => {
       const listAdress = await getAddressList();
@@ -24,7 +25,8 @@ export default function AdresseList({id_adresse}) {
     };
     fetchAdress();
   }, [id_adresse]);
-  console.log(adresse)
+
+  console.log("ici adresse",adresse)
   return (
       <div className="row">
       

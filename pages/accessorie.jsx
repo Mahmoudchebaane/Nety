@@ -1,14 +1,33 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { CategoryProduct } from "./api/categoryProducts";
 import FilterAccessories from "../components/filter_accessories";
-import accessoriesData from "/public/accessories-mocks.json";
+//import accessoriesData from "/public/accessories-mocks.json";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export default function Accessorie() {
-  const [accessories] = useState(accessoriesData.accessories);
+  CategoryProduct(9);
+  //const [accessories] = useState(accessoriesData.accessories);
+  const [accessories, setAccessories] = useState([]);
   const { t } = useTranslation();
+
+  useEffect(() => {
+    // Fonction pour obtenir les produits de la catégorie
+    async function fetchCategoryProducts() {
+      try {
+        const categoryProducts = await CategoryProduct(9); // Remplacez 9 par l'ID de votre catégorie
+        console.log(categoryProducts);
+        setAccessories(categoryProducts);
+      } catch (error) {
+        console.error("Erreur lors de la récupération des produits de la catégorie :", error);
+      }
+    }
+
+    fetchCategoryProducts(); // Appel de la fonction au chargement du composant
+  }, []);
+
   return (
     <>
       <Header />
@@ -67,8 +86,8 @@ export default function Accessorie() {
                             className="card-img-top"
                             alt="..."
                           />
-                          <h3 className="">{accessorie.name}</h3>
-                          <p className="">{accessorie.availability_message}</p>
+                          <h4>{accessorie.name}</h4>
+                          <p>{accessorie.availability_message}</p>
                           <p className="regular_price">
                             {accessorie.regular_price}
                           </p>

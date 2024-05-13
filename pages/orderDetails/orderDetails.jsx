@@ -1,11 +1,12 @@
 import AdresseList from "../../components/adresseList";
 import Footer from "../../components/footer";
-import HeaderProfile from "../../components/headerProfile";
+import Header from "../../components/header";
+
 
 export default function OrderDetails() {
   return (
     <>
-      <HeaderProfile />
+      <Header />
       <div className="container">
         <div className="row">
           <div className="col-6">

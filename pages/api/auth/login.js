@@ -1,9 +1,9 @@
 import { getCookie, setCookie } from 'cookies-next';
-
 // Fonction pour authentifier l'utilisateur
 export async function Authentication(email, password) {
     // email = "elyesbenmahmoud@gmail.com";
     // password = "123456";
+    
   const URL = process.env.NEXT_PUBLIC_PRESTASHOP_URL_API;
   const response = await fetch(`${URL}/rest/login`, {
     method: "POST",
@@ -29,6 +29,7 @@ export default async function handler(req, res) {
     // Si l'authentification réussit, renvoyer une réponse de réussite
     if (response.statusText === "OK") {
       res.status(200).json({ success: true,data });
+    
     } else {
       console.log("Échec de la connexion");
       res.status(401).json({ error: "Adresse e-mail ou mot de passe incorrect" });

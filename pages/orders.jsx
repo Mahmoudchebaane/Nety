@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import Footer from "../components/footer";
-import HeaderProfile from "../components/headerProfile";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { useRouter } from "next/router";
+import Header from "../components/header";
 
 export default function Orders() {
   const [orderList, setOrderList] = useState();
@@ -41,7 +41,7 @@ const handleChangeAction = (id_order) => {
  
   return (
     <>
-      <HeaderProfile />
+      <Header />
 
       <div className="container-fluid">
         <div className="row">

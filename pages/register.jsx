@@ -1,32 +1,38 @@
 import React, { useEffect, useState } from "react";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
 export default function Register() {
-  const router = useRouter()
+  const router = useRouter();
   const [isChecked, setIsChecked] = useState(false);
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
   const [firstName, setFirstName] = useState();
   const [lastName, setLastName] = useState();
   const [phone, setPhone] = useState();
-  
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     switch (name) {
       case "firstName":
         setFirstName(value);
+        console.log("prénom", { value });
+
         break;
       case "lastName":
         setLastName(value);
+        console.log("nom", { name, value });
         break;
       case "email":
         setEmail(value);
+        console.log("email", { name, value });
         break;
       case "phone":
         setPhone(value);
+        console.log("phone", { name, value });
         break;
       case "password":
         setPassword(value);
+        console.log("password", { name, value });
         break;
       default:
         break;
@@ -65,7 +71,7 @@ export default function Register() {
       console.error("Erreur lors de la requête:", error);
     }
   };
-  
+
   return (
     <>
       <div className="container-fluid">
@@ -96,36 +102,71 @@ export default function Register() {
                 Insérez vos informations de compte :
               </p>
             </div>
-            <form className="register-form">
+            <form className="register-form" onSubmit={handleSubmit}>
               <div className="mb-3">
                 <label htmlFor="firstName" className="form-label">
                   Prénom
                 </label>
-                <input type="text" className="form-control" id="firstName" />
+                <input
+                  type="text"
+                  className="form-control"
+                  id="firstName"
+                  name="firstName"
+                  value={firstName}
+                  onChange={handleChange}
+                />
               </div>
               <div className="mb-">
                 <label htmlFor="lastName" className="form-label">
                   Nom
                 </label>
-                <input type="text" className="form-control" id="lastName" />
+                <input
+                  type="text"
+                  className="form-control"
+                  id="lastName"
+                  name="lastName"
+                  value={lastName}
+                  onChange={handleChange}
+                />
               </div>
               <div className="mb-">
                 <label htmlFor="email" className="form-label">
                   Adresse e-mail
                 </label>
-                <input type="email" className="form-control" id="email" />
+                <input
+                  type="email"
+                  className="form-control"
+                  id="email"
+                  name="email"
+                  value={email}
+                  onChange={handleChange}
+                />
               </div>
               <div className="mb-">
                 <label htmlFor="phone" className="form-label">
                   Téléphone
                 </label>
-                <input type="text" className="form-control" id="phone" />
+                <input
+                  type="text"
+                  className="form-control"
+                  id="phone"
+                  name="phone"
+                  value={phone}
+                  onChange={handleChange}
+                />
               </div>
               <div className="mb-">
                 <label htmlFor="password" className="form-label">
                   Mot de passe
                 </label>
-                <input type="password" className="form-control" id="password" />
+                <input
+                  type="password"
+                  className="form-control"
+                  id="password"
+                  name="password"
+                  value={password}
+                  onChange={handleChange}
+                />
               </div>
               <div className="mb-">
                 <label htmlFor="confirmPassword" className="form-label">

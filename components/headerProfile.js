@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import LanguageSelector from "./languageSelector";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
+import { useSelector } from 'react-redux';
 
 const menuItemsMyNety = {
   title: "My Nety",
@@ -22,6 +23,7 @@ const menuItemsMyNety = {
 export default function HeaderProfile({}) {
   const [isOpen, setIsOpen] = useState(false); // État pour gérer l'ouverture du menu déroulant
   // Fonction pour basculer l'état isOpen
+  
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
@@ -34,86 +36,7 @@ export default function HeaderProfile({}) {
 
   return (
     <>
-      <div className="header-top hidden-lg-down navbar-purple navbar-padding ">
-        <div className="container center-container row">
-          <div className="d-flex align-items-center font-size-16 no-gutters justify-content-between ">
-            <div className="d-flex align-items-center font-size-18 ">
-              <a className="titleB2C b2cActive text-decoration-none" href="">
-                {t("particular")}
-              </a>
-              <a
-                className="titleB2B text-decoration-none"
-                href="https://business.nety.tn"
-              >
-                {t("professional")}
-              </a>
-            </div>
-
-            <div className="d-flex nav-bar-hidden col-8">
-              <div className="nov_button nety-secondary mx-2 ">
-                <a
-                  href="https://www.nety.tn/fr/module/paiementfacture/nouveau"
-                  id="paiementfacture"
-                  className="text-decoration-none"
-                >
-                  {t("invoice_payment")}
-                </a>
-              </div>
-              <div className="nov_button nety-primary mx-2">
-                <a
-                  href="https://www.nety.tn/fr/module/demandeabonnement/nouveau?"
-                  id="DAHeader"
-                  className="nov_button nety-primary mx-2 text-decoration-none"
-                >
-                  {t("subscribe")}
-                </a>
-              </div>
-
-              <div className="d-flex align-items-center text-decoration-none">
-                <div className="d-flex align-items-center text-decoration-none">
-                  <div
-                    className="px-4 text-decoration-none"
-                    style={{
-                      color: "#fdec25",
-                      display: "flex",
-                      alignItems: "center",
-                      fontSize: "18px",
-                    }}
-                  >
-                    <i className="bi bi-shop"></i>
-                    <span className="text-decoration-none">&nbsp; E-shop</span>
-                  </div>
-                  <div className="dropdown myAccountDropdown">
-                    <Dropdown items={menuItemsMyNety} />
-                  </div>
-                  <div className="px-2">
-                    <div id="_desktop_cart">
-                      <div
-                        className="blockcart cart-preview"
-                        data-refresh-url="//www.nety.tn/fr/module/ps_shoppingcart/ajax"
-                      >
-                        <div className="header-cart d-flex flex-row align-items-center">
-                          <div className="cart-left">
-                            <span>
-                              <i
-                                className="bi bi-cart-fill"
-                                style={{ color: "white" }}
-                              ></i>
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="dropdown langDropdown">
-                    <LanguageSelector />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        
       <nav className="navbar navbar-expand-lg bg-purple header-purple">
         <div className="container-fluid center-container">
           <Link href="/" className="navbar-brand">

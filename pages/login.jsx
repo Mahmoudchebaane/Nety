@@ -1,8 +1,10 @@
 import { FormEvent } from "react";
 import { useRouter } from "next/router";
 import Authentication from "./api/auth/login";
+import { useDispatch } from 'react-redux';
 
 export default function Login() {
+  const dispatch = useDispatch();
   const router = useRouter();
   async function handleSubmit(event) {
     event.preventDefault();
@@ -16,9 +18,13 @@ export default function Login() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),
     });
-
+    const userdata=await response.json();
     if (response.ok) {
+      console.log(userdata.data.psdata)
+      localStorage.setItem('user', JSON.stringify( userdata.data.psdata.user));
+      dispatch({ type: 'LOGIN_SUCCESS', payload: userdata.data.psdata.user });
       router.push("/profile");
+      
     } else {
       console.log("Failed to log in");
     }

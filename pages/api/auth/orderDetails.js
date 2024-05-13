@@ -1,5 +1,6 @@
 export async function OrderDetails(cookie, id_order) {
   const URL = process.env.NEXT_PUBLIC_PRESTASHOP_URL_API;
+  console.log(URL)
   try {
     const response = await fetch(
       `${URL}/rest/orderhistory?id_order=${id_order}`,
@@ -10,7 +11,7 @@ export async function OrderDetails(cookie, id_order) {
         }        
       }
     );
-    //console.log("*********",`${URL}/rest/orderhistory?id_order=${id_order}`);
+    console.log("*********",`${URL}/rest/orderhistory?id_order=${id_order}`);
     if (!response.ok) {
       
       

@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
-export default function Dropdown({ items, locale }) {
+export default function Dropdown({ items, locale,username }) {
   const [isOpen, setIsOpen] = useState(false);
   const menuItems = items?.children ? items.children : [];
   const titleIcon = items?.icon ? items.icon : "";
-  const title = items?.title ? items.title : "";
+  const title = username? username : (items?.title ? items.title : "");
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
   return (
     <>
       <div className="dropdown">
-        <button className="nav-link dropdown-toggle text-white" onClick={toggleDropdown}>
+        <button className="nav-link dropdown-toggle" onClick={toggleDropdown}>
           <i className={titleIcon} style={{ color: "white" }}></i>
           &nbsp;{title}
         </button>

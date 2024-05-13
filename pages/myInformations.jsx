@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Footer from "../components/footer";
-import HeaderProfile from "../components/headerProfile";
+import Header from "../components/header";
 
 
 export default function MyInformations() {
@@ -10,12 +10,15 @@ export default function MyInformations() {
   const [phone, setPhone] = useState();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
+  
   async function getInfo() {
     const response = await fetch("/api/auth/profil", {
       method: "GET",
     });
     //console.log(response);
+    console.log("*******",response)
     const data = await response.json();
+    console.log("*******",data)
     return data;
   }
   // async function updateInfos() {
@@ -72,8 +75,10 @@ export default function MyInformations() {
     });
     if (response.ok) {
       window.location.reload();
+     
     }
   }
+  
 
   // useEffect(() => {
   //   const fetchData = async () => {
@@ -152,7 +157,7 @@ const handleEmailChange = (e) =>{
 
   return (
     <>
-      <HeaderProfile />
+      <Header />
       <div className="container">
         <div className="row justify-content-center mt-5 mb-5">
           <div className="col-7">

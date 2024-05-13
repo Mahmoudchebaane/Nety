@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Filtre = () => {
+const Filter = () => {
   // État pour stocker les valeurs sélectionnées du filtre
   const [filtre, setFiltre] = useState('');
   const [ram, setRam] = useState([]);
@@ -85,4 +85,4 @@ const Filtre = () => {
   );
 };
 
-export default Filtre;
+export default Filter;
