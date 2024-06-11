@@ -1,96 +1,86 @@
 import { useEffect, useState } from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
+import { useRouter } from "next/router";
 
 
 export default function MyInformations() {
   const [user, setUser] = useState();
+  const [message, setMessage] = useState();
   const [firstName, setFirstName] = useState();
   const [lastName, setLastName] = useState();
   const [phone, setPhone] = useState();
   const [email, setEmail] = useState();
-  const [password, setPassword] = useState();
-  
+  const [oldPassword, setOldPassword] = useState('');
+  const [newPassword, setNewPassword] = useState('');
+  const [confirmPassword, setConfirmPassword]= useState();
+  const router = useRouter();
   async function getInfo() {
     const response = await fetch("/api/auth/profil", {
       method: "GET",
     });
     //console.log(response);
-    console.log("*******",response)
+    console.log("*******", response);
     const data = await response.json();
-    console.log("*******",data)
+    console.log("*******", data);
     return data;
   }
-  // async function updateInfos() {
-  //   const userData = {
-  //     firstname: firstName,
-  //     lastname: lastName,
-  //     phone: phone
-  //   };
-  //   try {
-  //     const response = await fetch("/rest/accountedit", {
-  //       method: 'POST',
-  //       headers: { 'Content-Type': 'application/json' 
-  //     },
-  //       body: JSON.stringify(userData),
-  //     });
-  //     if (response.ok) {
-  //       console.log("Les modifications ont été enregistrées avec succès !");
-  //       window.location.reload(); // Recharger la page après la mise à jour
-  //     } else {
-  //       console.error("Erreur lors de l'enregistrement des modifications :", response.statusText);
-  //     }
-  //   } catch (error) {
-  //     console.error("Erreur lors de la communication avec l'API :", error);
-  //   }
-  // }
-  // async function updateInfos() {
-  //   let userData = { 
-  //     firstname: first,
-  //     lastname : last,
-  //     phone : phone 
-  //   };
-  //     if (firstName !== undefined && firstName != null) userData["firstname"]=firstName;
-  //     if (lastName !== undefined && lastName != null) userData["lastname"]=lastName;
-  //     console.log(lastName);
-  //   const reponse = await fetch("/api/users/" + user.id, {
-  //       method: 'POST',
-  //       headers: { 'Content-Type': 'application/json' },
-  //       body: JSON.stringify(userData),
-  //   })
-  //   window.location.reload();
-  // }
+ 
+  
+  async function resetPassword() {
+    let newPass = {
+      email : email,
+      old_password : oldPassword,
+      new_password : newPassword,
+    }
+    if(newPassword === confirmPassword)
+      {
+    try {
+      const response = await fetch("/api/auth/resetPassword", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(newPass),
+        //body: JSON.stringify({ email, old_password: oldPassword, new_password: newPassword })
+      });
+      console.log("response",response);
+      const data = await response.json();
+      if(data.status==='success'){
+      console.log("ccccccccccc",data);
+      router.push("/logout");
+      }
+      else{
+        console.log("Old password is incorrect.")
+        setMessage(data.message)
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  else{
+    setMessage("Les deux mot de pass ne sont pas identique.")
+  }
+  }
   async function updateInfos() {
     let userData = {
       firstName: firstName,
       lastName: lastName,
       phone: phone,
-      email: email
+      email: email,
     };
     console.log("ici");
+    console.log(userData)
     const response = await fetch("/api/auth/myInformation", {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(userData),
     });
     if (response.ok) {
-      window.location.reload();
-     
+      //window.location.reload();
     }
   }
-  
 
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const userData = await getInfo();
-  //     setUser(userData.psdata || {});
-  //     setFirstName(userData.psdata?.firstname || "");
-  //     setLastName(userData.psdata?.lastname || "");
-  //     setPhone(userData.psdata?.phone || "");
-  //     setEmail(userData.psdata?.email || "");
-  //   };
-  //   fetchData();
-  // }, []);
   useEffect(() => {
     const fetchData = async () => {
       const userData = await getInfo();
@@ -99,11 +89,21 @@ export default function MyInformations() {
       setLastName(userData.psdata.lastname);
       setPhone(userData.psdata.phone);
       setEmail(userData.psdata.email);
-      
     };
     fetchData();
   }, []);
 
+ 
+
+  const handleChangePassword = (e) => {
+    setOldPassword(e.target.value);
+  }
+  const handleChangeNewPassword = (e) => {
+    setNewPassword(e.target.value);
+  }
+  const handleChangeconfPassword = (e) => {
+    setConfirmPassword(e.target.value);
+  }
   const handleFirstNameChange = (e) => {
     setFirstName(e.target.value);
     //console.log(firstName);
@@ -116,9 +116,9 @@ export default function MyInformations() {
     setPhone(e.target.value);
     //console.log(phone);
   };
-const handleEmailChange = (e) =>{
-  setEmail(e.target.value);
-}
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
   const handleSubmit = async (e) => {
     console.log("submit");
     e.preventDefault();
@@ -126,34 +126,13 @@ const handleEmailChange = (e) =>{
     try {
       await updateInfos(); // Appel de la fonction pour mettre à jour les informations
     } catch (error) {
-      console.error("Une erreur s'est produite lors de la soumission du formulaire :", error);
+      console.error(
+        "Une erreur s'est produite lors de la soumission du formulaire :",
+        error
+      );
     }
   };
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-    
-  //   try {
-  //     const response = await fetch("/api/auth/profil", {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       body: JSON.stringify({ firstName, lastName, phone }),
-  //     });
-      
-  //     // Vérifier la réussite de la requête
-  //     if (response.ok) {
-  //       console.log("Les modifications ont été enregistrées avec succès !");
-  //     } else {
-  //       console.error(
-  //         "Erreur lors de l'enregistrement des modifications :",
-  //         response.statusText
-  //       );
-  //     }
-  //   } catch (error) {
-  //     console.error("Erreur lors de la communication avec l'API :", error);
-  //   }
-  // };
+ 
 
   return (
     <>
@@ -167,81 +146,82 @@ const handleEmailChange = (e) =>{
                   <h2>Modifier mes informations</h2>
                 </div>
                 <div className="card-body">
-                  
-                    <div className="row">
-                      <div className="col-25">
-                        <label htmlFor="fname" className="form-control-label">
-                          Prénom*
-                        </label>
-                      </div>
-                      <div className="col-75">
-                        <input
-                          className="input-text"
-                          type="text"
-                          id="fname"
-                          name="firstname"
-                          value={firstName}
-                          onChange={handleFirstNameChange}
-                        />
-                      </div>
+                  <div className="row">
+                    <div className="col-25">
+                      <label htmlFor="fname" className="form-control-label">
+                        Prénom*
+                      </label>
                     </div>
-                    <div className="row">
-                      <div className="col-25">
-                        <label htmlFor="lname" className="form-control-label">
-                          Nom*
-                        </label>
-                      </div>
-                      <div className="col-75">
-                        <input
-                          className="input-text"
-                          type="text"
-                          id="lname"
-                          name="lastname"
-                          value={lastName}
-                          onChange={handleLastNameChange}
-                        />
-                      </div>
+                    <div className="col-75">
+                      <input
+                        className="input-text"
+                        type="text"
+                        id="fname"
+                        name="firstname"
+                        value={firstName}
+                        onChange={handleFirstNameChange}
+                        required
+                      />
                     </div>
-                    <div className="row">
-                      <div className="col-25">
-                        <label htmlFor="country" className="form-control-label">
-                          Téléphone *
-                        </label>
-                      </div>
-                      <div className="col-75">
-                        <input
-                          className="input-text"
-                          type="text"
-                          id="fphone"
-                          name="fixphone"
-                          value={phone}
-                          onChange={handlePhoneChange}
-                        />
-                      </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-25">
+                      <label htmlFor="lname" className="form-control-label">
+                        Nom*
+                      </label>
                     </div>
-                    <div className="row">
-                      <div className="col-25">
-                        <label htmlFor="email" className="form-control-label">
-                          Email
-                        </label>
-                      </div>
-                      <div className="col-75">
-                        <input
-                          className="input-text input-email-none"
-                          type="text"
-                          id="email"
-                          name="email"
-                          value={user.email}
-                        />
-                      </div>
+                    <div className="col-75">
+                      <input
+                        className="input-text"
+                        type="text"
+                        id="lname"
+                        name="lastname"
+                        value={lastName}
+                        onChange={handleLastNameChange}
+                        required
+                      />
                     </div>
-                 
+                  </div>
+                  <div className="row">
+                    <div className="col-25">
+                      <label htmlFor="country" className="form-control-label">
+                        Téléphone *
+                      </label>
+                    </div>
+                    <div className="col-75">
+                      <input
+                        className="input-text"
+                        type="text"
+                        id="fphone"
+                        name="fixphone"
+                        value={phone}
+                        onChange={handlePhoneChange}
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-25">
+                      <label htmlFor="email" className="form-control-label">
+                        Email
+                      </label>
+                    </div>
+                    <div className="col-75">
+                      <input
+                        className="input-text input-email-none"
+                        type="text"
+                        id="email"
+                        name="email"
+                        value={user.email}
+                      />
+                    </div>
+                  </div>
                 </div>
                 <div className="card-footer d-flex justify-content-start">
                   <input
                     className="input-submit"
                     type="submit"
-                    value="Enregitrer"
+                    value="Enregistrer"
                     onClick={handleSubmit}
                   />
                   <style jsx>{`
@@ -274,6 +254,8 @@ const handleEmailChange = (e) =>{
                         id="oldpass"
                         name="oldpassword"
                         placeholder="Mot de passe"
+                        onChange={handleChangePassword}
+                        required
                       />
                     </div>
                   </div>
@@ -290,6 +272,8 @@ const handleEmailChange = (e) =>{
                         id="newpass"
                         name="newpassword"
                         placeholder="Mot de passe"
+                        onChange={handleChangeNewPassword}
+                        required
                       />
                     </div>
                   </div>
@@ -306,8 +290,13 @@ const handleEmailChange = (e) =>{
                         id="confpass"
                         name="confirmpassword"
                         placeholder="Mot de passe"
+                        onChange={handleChangeconfPassword}
+                        required
                       />
                     </div>
+                    <div style={{ color: "red" }} id="erreur" className="form-text pb-3">
+                  {message}
+                </div>
                   </div>
                 </form>
               </div>
@@ -315,7 +304,8 @@ const handleEmailChange = (e) =>{
                 <input
                   className="input-submit"
                   type="submit"
-                  value="Enregitrer"
+                  value="Enregistrer"
+                  onClick={() => resetPassword()}
                 />
                 <style jsx>{`
                   .input-submit:hover {

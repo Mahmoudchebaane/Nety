@@ -46,6 +46,15 @@
     height: 80px;
     width: 100%;
 }
+#search_filters_wrapper {
+    background: rgba(89, 4, 157, .08) !important;
+    border-radius: 7px;
+}
+#search_filters_wrapper .title_block {
+    font-family: "Azo Sans", sans-serif;
+    color: #59049d;
+    margin-bottom: 0px !important;
+}
 .header-purple
 {
     --bs-navbar-color:rgba(255, 255, 255, 0.937);
@@ -54,8 +63,8 @@
 }
 .center-container
 {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .navbar-purple{
     background-color: #7E37B1;
@@ -540,12 +549,28 @@
     border-radius: 10px;
     
   }
-  
+  .blockcart .header-cart {
+    text-align: center;
+    cursor: pointer;
+}
+.blockcart .header-cart .cart-products-count {
+    top: -17px !important;
+}
  .img-panier {
     height: 90px;
     width: 90px;
 }
-
+.cart-products-count {
+    background: #1fbe9d;
+    left: 50%;
+    min-width: 17px;
+    height: 17px;
+    position: relative;
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
 .modal-header-panier {
     background-color: #1fbe9d;
 }
@@ -553,6 +578,10 @@
     background-color: purple;
     color: white;
     width: 100%;   
+}
+.btn-env-order{
+    background-color: #59049D;
+    color: white;
 }
 .btn-modal-achat{
    border: 2px solid purple;
@@ -659,4 +688,162 @@
 }
 .titre-adress{
     margin: 20px;
+}
+/**** Page demande d'abonnement *****/
+.pageabonnement{
+    height: 170px;
+  background: url(/image/bg-abo.png) no-repeat 100% 0%, url(/image/bg-abo-nety.png) no-repeat 4% 100%, #59049D;
+  background-size: contain;
+}
+.abo-form-card {
+    z-index: 1;
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    /* border: 1px solid rgba(0, 0, 0, .125); */
+    box-shadow: 0px 3px 5px #00000029;
+    border-radius: 45px;
+  }
+  .abo-card-block {
+    top: -70px;
+    padding: 30px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+  }
+  .title-icon {
+    width: auto;
+    height: 50px;
+}
+.title-form-page {
+    color: #59049D;
+    line-height: 1.2;
+    font-weight: bold;
+    font-size: 35px;
+}
+.stepwizard {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.stepwizard-row {
+    display: table-row;
+}
+.stepwizard-step:not(:last-child):before {
+    top: 19px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    z-index: -1;
+    background-color: #59049D;
+    /* // #ccc;  */
+  }
+  
+  .stepwizard-step {
+    display: table-cell;
+    width: 25%;
+    text-align: center;
+    position: relative;
+  }
+  
+  .stepwizard-step .btn.disabled {
+    opacity: 1;
+  }
+  .btn-step {
+    color: #fff;
+    border-color: #59049D;
+    background-color: #8948b8;
+  }
+  .btn-step:hover,
+.btn-step:focus {
+  border-color: rgb(89, 4, 157);
+  color: #59049D;
+  background-color: #FDEC25;
+}
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 20px;
+  }
+  .btn-outline-step {
+    color: #59049D;
+    background-color: #fff;
+    border-color: #59049D;
+  }
+  
+  .btn-outline-step:hover,
+  .btn-outline-step:focus {
+    color: #59049D;
+    border-color: #59049D;
+    background-color: #f4eef8;
+  }
+  .stepwizard-step .btn.disabled {
+    opacity: 1;
+  }
+  a.btn.disabled {
+    pointer-events: unset;
+    cursor: not-allowed !important;
+  }
+  
+  a.btn.disabled:hover,
+  a.btn.disabled:focus {
+    border-color: #bda7cc;
+    background-color: #bda7cc;
+    color: #fff;
+  }
+  .stepwizard-content {
+  margin: 5px auto;
+  padding: 5px 50px;
+}
+.filter {
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 10px;
+    }
+.hr-filter{
+    border: 1px solid white;
+    opacity: 1 !important;
+}
+.filter-label{
+    padding-left: 10px;
+}
+.filter-input {
+margin-right: 10px;
+}
+.filter-form {
+    padding-left: 15px;
+}
+.breadcrumb-style {
+    padding: 20px;
+}
+.select-style{
+    background-color:#59049D;
+    border-radius: 10px;
+}
+.qt-product{
+    color: yellow;
+    margin-left: 20px;
+}
+.form-select{
+--bs-border-radius: 15px;
 }

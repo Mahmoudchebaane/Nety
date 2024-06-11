@@ -229,6 +229,7 @@ export default function OrderDetails() {
               id="exampleFormControlTextarea1"
               rows="3"
             ></textarea>
+            <button className="btn mt-4 btn-env-order">Envoyer</button>
           </div>
         </div>
       </div>

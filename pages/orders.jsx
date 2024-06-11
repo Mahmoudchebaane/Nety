@@ -62,7 +62,7 @@ const handleChangeAction = (id_order) => {
                 {orderList?.map((order,key) => (
                   <tr key={key} >
                     <td>{order.reference}</td>
-                    <td>{order.invoice_date}</td>
+                    <td>{order.date_add}</td>
                     <td>{order.total_paid}</td>
                     <td>{order.order_state}</td>
                     <td className="text-center"><i onClick={() => handleChangeAction(order.id_order)} class="bi bi-info-circle"></i></td>

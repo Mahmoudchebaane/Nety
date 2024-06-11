@@ -58,7 +58,40 @@ export default function Panier() {
       return updatedProducts;
     });
   };
-
+  async function getCartFromLocalStorage(){
+    const cartItems= JSON.parse(localStorage.getItem('panier')) || [];
+    console.log(cartItems);
+    if(cartItems.length >0 ){
+      try{
+        const data = await AddCart(cartItems);
+        console.log("produit dans panier",data);
+      }catch(error){
+        console.log("Erreur lors de la recuperation du panier", error);
+      }
+    }else{
+      console.log("Aucun articles trouvé");
+    }
+  }
+async function AddCart(items){
+  try{
+    const response = await fetch(`/api/auth/cart`,{
+      method :'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(items)
+    });
+    console.log(typeof response)
+    if(!response.ok){
+      throw new Error("Error lors de l'ajout de panier")
+    }
+    const data = await response.json();
+    console.log("data de panier",data);
+    setCart(data);
+    return data;
+  }catch(error){
+console.error("Erreur lors de la recuperation de panier", error);
+return [];
+  }
+}
   const decrementQuantity = (productId) => {
     let qteProduct = 0;
     let totalPrice = 0;
@@ -97,7 +130,7 @@ export default function Panier() {
     console.log("/panier/", totalPrice);
     localStorage.setItem("panier", JSON.stringify(productsAfterDeletion));
   };
-
+  const [cart, setCart]= useState([]);  
   const [collapsed, setCollapsed] = useState(true);
   const [promoCode, setPromoCode] = useState("");
   const toggleCollapse = () => {
@@ -112,8 +145,11 @@ export default function Panier() {
   };
 const router = useRouter();
   const handleChangeCommande =()=>{
+    //AddCart(cart);
+    getCartFromLocalStorage();
     router.push('/commande')
   }
+  
   return (
     <>
       <Header />

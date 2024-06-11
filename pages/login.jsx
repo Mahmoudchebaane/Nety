@@ -1,11 +1,15 @@
-import { FormEvent } from "react";
+import { FormEvent, useState } from "react";
+import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Authentication from "./api/auth/login";
-import { useDispatch } from 'react-redux';
+import { useDispatch } from "react-redux";
 
 export default function Login() {
+  const [isloged, setIsloged] = useState(false);
+  const [error, setError] = useState('');
   const dispatch = useDispatch();
   const router = useRouter();
+
   async function handleSubmit(event) {
     event.preventDefault();
     // Get the token from the form data
@@ -18,15 +22,18 @@ export default function Login() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),
     });
-    const userdata=await response.json();
+    const userdata = await response.json();
     if (response.ok) {
-      console.log(userdata.data.psdata)
-      localStorage.setItem('user', JSON.stringify( userdata.data.psdata.user));
-      dispatch({ type: 'LOGIN_SUCCESS', payload: userdata.data.psdata.user });
+      setIsloged(true);
+      console.log(userdata.data.psdata);
+      localStorage.setItem("user", JSON.stringify(userdata.data.psdata.user));
+      dispatch({ type: "LOGIN_SUCCESS", payload: userdata.data.psdata.user });
       router.push("/profile");
-      
     } else {
       console.log("Failed to log in");
+      setError("Echec d'authentication");
+      setIsloged(false);
+      // setError(true);
     }
     // const responseData = await response.json();
     // console.log(response);
@@ -35,6 +42,10 @@ export default function Login() {
     // document.cookie = `token=${token}; path=/`;
     // // router.push("/profile")
   }
+  useEffect(() => {
+    //console.log("L'état de isloged a changé :", isloged);
+  }, [isloged]);
+  console.log("etat de login after effect", isloged);
   return (
     <>
       <div className="container-fluid">
@@ -74,11 +85,9 @@ export default function Login() {
                   id="email"
                   name="email"
                   aria-describedby="emailHelp"
+                  required
+                 
                 />
-                <div id="emailHelp" className="form-text">
-                  Nous ne partagerons jamais votre adresse e-mail avec qui que
-                  ce soit.
-                </div>
               </div>
               <div className="mb-3">
                 <label htmlFor="password" className="form-label">
@@ -89,18 +98,16 @@ export default function Login() {
                   className="form-control"
                   name="password"
                   id="password"
+                  required
+                  
                 />
               </div>
-              <div className="mb-3 form-check">
-                <input
-                  type="checkbox"
-                  className="form-check-input"
-                  id="exampleCheck1"
-                />
-                <label className="form-check-label" htmlFor="exampleCheck1">
-                  Se souvenir de moi
-                </label>
-              </div>
+              {error && !isloged && (
+                <div style={{ color: "red" }} id="erreur" className="form-text pb-3">
+                  {error}
+                </div>
+              )}
+
               <button type="submit" className="btn btn-primary bg-purple">
                 Se connecter
               </button>

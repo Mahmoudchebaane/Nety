@@ -1,9 +1,24 @@
 
-export async function CategoryProduct(id_category) {
+export async function CategoryProduct(id_category,filters=null) {
   const URL = process.env.NEXT_PUBLIC_PRESTASHOP_URL_API;
+  let URLAPI=`${URL}/rest/categoryProducts?id_category=${id_category}`;
+  if(filters)
+    {
+      console.log(filters)
+      const params = new URLSearchParams();
+
+      filters.forEach((filter, index) => {
+      params.append(`filters[${index}][name]`, filter.name);
+      params.append(`filters[${index}][value]`, filter.value);
+    });
+    const queryString = params.toString();
+    console.log(queryString)
+    URLAPI=`${URL}/rest/categoryProducts?id_category=${id_category}&${queryString}`;
+    }
+ 
   try {
     const response = await fetch(
-      `${URL}/rest/categoryProducts?id_category=${id_category}`,
+      `${URLAPI}`,
       {
         method: "GET",
         headers: {
@@ -11,13 +26,13 @@ export async function CategoryProduct(id_category) {
         },
       }
     );
-    //console.log("iciiiiii",`${URL}/rest/categoryProducts?id_category=${id_category}`)
+    
+    console.log("iciiiiii",`${URL}/rest/categoryProducts?id_category=${id_category}`)
     if (!response.ok) {
       throw new Error("HTTP error! Erreur lors de la récupération");
     }
     const categoryDetails = await response.json();
-    //console.log("product list of 9",categoryDetails.psdata.products)
-    return categoryDetails.psdata.products;
+    return categoryDetails.psdata;
   } catch (error) {
     console.log("Error : ", error);
     return null;

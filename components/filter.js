@@ -1,87 +1,85 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from "react";
+import { useFilter } from "../pages/hooks/useFilter";
 
-const Filter = () => {
-  // État pour stocker les valeurs sélectionnées du filtre
-  const [filtre, setFiltre] = useState('');
-  const [ram, setRam] = useState([]);
-  const [stockage, setStockage] = useState([]);
-  const [batterie, setBatterie] = useState(false);
+const Filter = ({ facets }) => {
+  const { filters, addFilter, removeFilter } = useFilter();
+  console.log(filters);
+  const [selectedFilters, setSelectedFilters] = useState({});
+  const [defaultFilter, setDefaultFilter] = useState([]);
 
-   // Fonction pour mettre à jour l'état de la RAM lors de la sélection
-  const handleRamChange = (event) => {
-    const selectedRam = event.target.value;
-    // Vérifie si l'option de RAM est déjà sélectionnée ou non
-    if (ram.includes(selectedRam)) {
-      // Si elle est déjà sélectionnée, la retire de la liste
-      setRam(ram.filter((r) => r !== selectedRam));
-    } else {
-      // Sinon, l'ajoute à la liste
-      setRam([...ram, selectedRam]);
-    }
+  useEffect(() => {
+    setDefaultFilter(facets);
+  }, [facets]);
+
+  const handleFilterChange = (category, label) => {
+    setSelectedFilters((prev) => {
+      const newFilters = { ...prev };
+      if (!newFilters[category]) {
+        newFilters[category] = new Set();
+      }
+      if (newFilters[category].has(label)) {
+        newFilters[category].delete(label);
+      } else {
+        newFilters[category].add(label);
+      }
+      return newFilters;
+    });
   };
 
-  // Fonction pour mettre à jour l'état du stockage lors de la sélection
-  const handleStockageChange = (event) => {
-    const selectedStockage = event.target.value;
-    // Vérifie si l'option de stockage est déjà sélectionnée ou non
-    if (stockage.includes(selectedStockage)) {
-      // Si elle est déjà sélectionnée, la retire de la liste
-      setStockage(stockage.filter((s) => s !== selectedStockage));
-    } else {
-      // Sinon, l'ajoute à la liste
-      setStockage([...stockage, selectedStockage]);
-    }
-  };
+  useEffect(() => {
+    const generateFiltersArray = () => {
+      const filtersArray = [];
+      for (const [category, labelsSet] of Object.entries(selectedFilters)) {
+        if (labelsSet.size > 0) {
+          filtersArray.push({
+            name: category,
+            value: Array.from(labelsSet).join(","),
+          });
+        }
+      }
+      return filtersArray;
+    };
 
-  // Fonction pour mettre à jour l'état de la batterie lors de la sélection
-  const handleBatterieChange = (event) => {
-    setBatterie(event.target.checked);
-  };
+    const filtersArray = generateFiltersArray();
+    filters.forEach((filter) => removeFilter(filter.name));
+    filtersArray.forEach(addFilter);
+  }, [selectedFilters]);
 
   return (
-    <div>
-      <h2>Filtre :</h2>
-      <h5>Ram :</h5>
-      <label>
-        <input type="checkbox" value="2GO" checked={ram.includes('2GO')} onChange={handleRamChange} />
-        2GO
-      </label>
-      <br />
-      <label>
-        <input type="checkbox" value="4GO" checked={ram.includes('4GO')} onChange={handleRamChange} />
-        4GO
-      </label>
-      <p>Vous avez sélectionné : {ram.join(', ')}</p>
-
-      <h5>Stockage :</h5>
-      <label>
-        <input type="checkbox" value="32GO" checked={stockage.includes('32GO')} onChange={handleStockageChange} />
-        32GO
-      </label>
-      <br />
-      <label>
-        <input type="checkbox" value="64GO" checked={stockage.includes('64GO')} onChange={handleStockageChange} />
-        64GO
-      </label>
-      <br />
-      <label>
-        <input type="checkbox" value="128GO" checked={stockage.includes('128GO')} onChange={handleStockageChange} />
-        128GO
-      </label>
-      <br />
-      <label>
-        <input type="checkbox" value="256GO" checked={stockage.includes('256GO')} onChange={handleStockageChange} />
-        256GO
-      </label>
-      <p>Vous avez sélectionné : {stockage.join(', ')}</p>
-
-      <h5>Batterie :</h5>
-      <label>
-        <input type="checkbox" checked={batterie} onChange={handleBatterieChange} />
-        5000 mAh
-      </label>
-      <p>Vous avez sélectionné : {batterie ? '5000 mAh' : 'Aucune'}</p>
-    </div>
+    <>
+      <div className="filter-form" id="search_filters_wrapper">
+        <div class="title_block filter">
+          <span>Filtrer</span>
+        </div>
+        <hr className="hr-filter" />
+        <div id="search_filters">
+          {defaultFilter &&
+            defaultFilter.map((filtre, index) => (
+              <div className="pb-2" key={index}>
+                <h5 className="pt-3">{filtre.label}</h5>
+                {filtre.filters.map((prop, index) => (
+                  <div className="row filter-label" key={index}>
+                    <div className="col-8">
+                      <label>
+                        <input
+                          className="filter-input"
+                          type="checkbox"
+                          value={prop.label}
+                          onChange={() =>
+                            handleFilterChange(filtre.label, prop.label)
+                          }
+                        />
+                        {prop.label}
+                      </label>
+                    </div>
+                    <div className="col-4">({prop.magnitude})</div>
+                  </div>
+                ))}
+              </div>
+            ))}
+        </div>
+      </div>
+    </>
   );
 };
 

@@ -6,9 +6,11 @@ export default function Register() {
   const [isChecked, setIsChecked] = useState(false);
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
+  const [confirmPassword, setConfirmPassword] = useState();
   const [firstName, setFirstName] = useState();
   const [lastName, setLastName] = useState();
   const [phone, setPhone] = useState();
+  const [erreur, setErreur] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -16,7 +18,6 @@ export default function Register() {
       case "firstName":
         setFirstName(value);
         console.log("prénom", { value });
-
         break;
       case "lastName":
         setLastName(value);
@@ -34,6 +35,9 @@ export default function Register() {
         setPassword(value);
         console.log("password", { name, value });
         break;
+      case "confirmPassword":
+        setConfirmPassword(value);
+        console.log("confirmPassword", { name, value });
       default:
         break;
     }
@@ -45,30 +49,46 @@ export default function Register() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     const profil = {
       firstName,
       lastName,
       email,
       phone,
       password,
+      confirmPassword,
     };
-
-    try {
-      const response = await fetch("/api/auth/register", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(profil),
-      });
-
-      if (response.ok) {
-        console.log("Profil ajouté avec succès");
-        router.push("/login");
-      } else {
-        console.error("Erreur lors de l'ajout du profil");
+    if (password === confirmPassword && isChecked) {
+      try {
+        const response = await fetch("/api/auth/register", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(profil),
+        });
+        const userdata = await response.json();
+        console.log("pwd", password);
+        console.log("confpwd", confirmPassword);
+        console.log(response.code)
+        if (response.ok) {
+          if (userdata.code === 308) {
+            console.error("Utilisateur déjà existant");
+            setErreur("Utilisateur déjà existant");
+          } else {
+            console.log("Profil ajouté avec succès");
+            router.push("/login");
+          }
+        } else {
+          console.error("Erreur lors de l'ajout du profil");
+        }
+      } catch (error) {
+        console.error("Erreur lors de la requête:", error);
       }
-    } catch (error) {
-      console.error("Erreur lors de la requête:", error);
+    } else {
+      if (password !== confirmPassword) {
+        console.error("Mot de passe incorrect");
+        setErreur("Le mot de passe et la confirmation ne sont pas identiques");
+      } else {
+        setErreur("Condition générales non accepter");
+      }
     }
   };
 
@@ -114,6 +134,7 @@ export default function Register() {
                   name="firstName"
                   value={firstName}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="mb-">
@@ -127,6 +148,7 @@ export default function Register() {
                   name="lastName"
                   value={lastName}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="mb-">
@@ -140,6 +162,7 @@ export default function Register() {
                   name="email"
                   value={email}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="mb-">
@@ -153,6 +176,7 @@ export default function Register() {
                   name="phone"
                   value={phone}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="mb-">
@@ -166,6 +190,7 @@ export default function Register() {
                   name="password"
                   value={password}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="mb-">
@@ -176,9 +201,21 @@ export default function Register() {
                   type="password"
                   className="form-control"
                   id="confirmPassword"
+                  name="confirmPassword"
+                  value={confirmPassword}
+                  onChange={handleChange}
+                  required
                 />
               </div>
-
+              {erreur && (
+                <div
+                  style={{ color: "red" }}
+                  id="erreur"
+                  className="form-text pb-3"
+                >
+                  {erreur}
+                </div>
+              )}
               <div className="mb-3 form-check">
                 <input
                   type="checkbox"

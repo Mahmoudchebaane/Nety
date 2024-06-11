@@ -106,6 +106,9 @@ export default function Header({}) {
   const handleChangeCommande = (e) => {
     router.push("/commande");
   };
+  const goToAbonnerVous = ()=>{
+    router.push("/demandeabonnement")
+  }
 
   const { t } = useTranslation();
   useEffect(() => {
@@ -149,9 +152,10 @@ export default function Header({}) {
 
   return (
     <>
-      <div className="header-top hidden-lg-down navbar-purple navbar-padding ">
-        <div className="container center-container row align-items-center justify-content-between">
-          <div className="col-3  d-flex align-items-center font-size-18 ">
+    
+      <div className="navbar navbar-expand-lg navbar-purple navbar-padding">
+        <div className="container-fluid center-container">
+          <div className="col-3 d-flex align-items-center font-size-18 ">
             <a className="titleB2C b2cActive text-decoration-none" href="">
               {t("particular")}
             </a>
@@ -176,7 +180,7 @@ export default function Header({}) {
               </div>
               <div className="nov_button nety-primary mx-2">
                 <a
-                  href="https://www.nety.tn/fr/module/demandeabonnement/nouveau?"
+                  onClick={goToAbonnerVous}
                   id="DAHeader"
                   className="nov_button nety-primary mx-2 text-decoration-none"
                 >
@@ -215,7 +219,7 @@ export default function Header({}) {
                   </div>
                 )}
                 {/* Panier */}
-
+                
                 <div className="px-3">
                   <div id="_desktop_cart">
                     <div
@@ -224,10 +228,10 @@ export default function Header({}) {
                     >
                       <div className="header-cart d-flex flex-row align-items-center">
                         <div className="cart-left">
+                        </div>
                         {qty!==0 ? (
-                          <div className="cercle-panier">
-                            <b>{qty}</b>
-                          </div>):
+                          <span className="cart-products-count">{qty}</span>
+                          ):
                           null}
                           <i
                             className="bi bi-cart-fill"
@@ -342,7 +346,7 @@ export default function Header({}) {
                               </div>
                             </div>
                           )}
-                        </div>
+                        
                       </div>
                     </div>
                   </div>
@@ -359,9 +363,11 @@ export default function Header({}) {
 
       <nav className="navbar navbar-expand-lg bg-purple header-purple">
         <div className="container-fluid center-container">
+        <div className="col-3 d-flex align-items-center ">
           <Link href="/" className="navbar-brand">
             <img className="logo img-fluid" src="/image/logo.jpg" alt="logo" />
           </Link>
+          </div>
           <button
             className="navbar-toggler"
             type="button"
