@@ -6,7 +6,7 @@ import { CategoryProduct } from "../pages/api/categoryProducts";
 
 export default function ProductCategorie({products,categorie_id}) {
     const { filters, addFilter } = useFilter();
-  console.log('hhhhhhhhhhhhhhh')
+  console.log(categorie_id)
   console.log(filters)
   const [productList,setProductList] = useState([]);
   const router = useRouter();

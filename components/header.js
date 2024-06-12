@@ -402,12 +402,12 @@ export default function Header({}) {
                   <Dropdown key="products" items={menuItemsProducts} />
                   <Dropdown key="services" items={menuItemsServices} />
                   <li className="nav-item">
-                    <Link href="#" className="nav-link text-dark">
+                    <Link href="/boutique" className="nav-link text-dark">
                       Nos boutiques
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link href="#" className="nav-link text-dark">
+                    <Link href="/contact" className="nav-link text-dark">
                       Contact
                     </Link>
                   </li>
@@ -424,12 +424,12 @@ export default function Header({}) {
               <Dropdown key="products" items={menuItemsProducts} />
               <Dropdown key="services" items={menuItemsServices} />
               <li className="nav-item">
-                <Link href="#" className="nav-link">
+                <Link href="/nosboutique" className="nav-link">
                   Nos boutiques
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#" className="nav-link">
+                <Link href="/contact" className="nav-link">
                   Contact
                 </Link>
               </li>

@@ -3,7 +3,6 @@ import { useFilter } from "../pages/hooks/useFilter";
 
 const Filter = ({ facets }) => {
   const { filters, addFilter, removeFilter } = useFilter();
-  console.log(filters);
   const [selectedFilters, setSelectedFilters] = useState({});
   const [defaultFilter, setDefaultFilter] = useState([]);
 
@@ -56,6 +55,8 @@ const Filter = ({ facets }) => {
           {defaultFilter &&
             defaultFilter.map((filtre, index) => (
               <div className="pb-2" key={index}>
+              {filtre.type==="feature" ? (
+                <>
                 <h5 className="pt-3">{filtre.label}</h5>
                 {filtre.filters.map((prop, index) => (
                   <div className="row filter-label" key={index}>
@@ -75,6 +76,8 @@ const Filter = ({ facets }) => {
                     <div className="col-4">({prop.magnitude})</div>
                   </div>
                 ))}
+                </>
+              ):null}
               </div>
             ))}
         </div>

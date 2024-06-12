@@ -102,6 +102,7 @@
     border-radius: 50px;
     padding: 5px;
 }
+
 .nov_button.nety-primary a {
     font-family: 0, sans-serif;
     font-weight: 700;
@@ -347,9 +348,22 @@
     border-bottom: none !important;
     color: #000;
     text-transform: none;
-    font-size: 35px;
+    font-size: 45px;
     margin-bottom: 5px;
     text-align: left;
+}
+.form-connecter{
+    padding:80px;
+}
+.form-register{
+    padding: 80px 90px 10px 90px;
+}
+.welcome{
+    font-size: 60px;
+}
+.login-form{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius:50px;
 }
 .titleDesc {
     color: #6c6c6c;
@@ -359,6 +373,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+.aff-login{
     height: 100%;
     width: 100%;
 }
@@ -839,6 +857,7 @@ margin-right: 10px;
 .select-style{
     background-color:#59049D;
     border-radius: 10px;
+    height: 60px;
 }
 .qt-product{
     color: yellow;
@@ -847,3 +866,58 @@ margin-right: 10px;
 .form-select{
 --bs-border-radius: 15px;
 }
+.search-input{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.search-button{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.image-contact{
+    background-color: #59049D;
+}
+.contact-nous{
+    color: yellow;
+    font-size: 80px;
+    border-bottom-left-radius: 40%;
+}
+.card-contact{
+    .card-text{
+        color: yellow;
+    }
+}
+.bg-white{
+    background-color: white;
+}
+
+
+.form-titre{
+    font-size: 60px;
+}
+
+.form-control {
+    border: 2px solid #59049D; 
+    border-radius: 10px; 
+  }
+  
+  textarea.form-control {
+    resize: none;
+  }
+  
+  .btn-primary {
+    background-color: #59049D; 
+    border-color: white;
+    border-radius: 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff1493; 
+  }
+  
+  .card-contact{
+    background-color: #59049D;
+    border-radius: 20px;
+    color: white;
+    height: 250px;
+  }

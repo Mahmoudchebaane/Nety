@@ -6,7 +6,7 @@ import { useDispatch } from "react-redux";
 
 export default function Login() {
   const [isloged, setIsloged] = useState(false);
-  const [error, setError] = useState('');
+  const [error, setError] = useState("");
   const dispatch = useDispatch();
   const router = useRouter();
 
@@ -49,67 +49,20 @@ export default function Login() {
   return (
     <>
       <div className="container-fluid">
-        <div className="row">
-          <div className="col-lg-6 bg-purple text-white min-vh-100 d-flex flex-column justify-content-center align-items-center p-4">
-            <h1>Bienvenue dans notre espace client</h1>
-            <p>
+        <div className="row bg-purple">
+          <div className="col-lg-6 text-white d-flex flex-column justify-content-center">
+            <h1 className="welcome pt-4">Bienvenue</h1>
+            <h1 className="pb-3">dans notre espace client</h1>
+            <h4 className="pt-5 pb-5">
               L’espace client vous permet de consulter vos données personnelles,
               payer vos factures, passer vos réclamations..
-            </p>
-            <button onClick={() => router.push("/")} className="btn-primary">
-              Revenir au site
-            </button>
-            <div className="imgLeft d-flex justify-content-center">
-              <img
-                src="/image/cnx.png"
-                className="imgLeft"
-                style={{ objectFit: "contain", paddingTop: "100px" }}
-                alt="Image de connexion"
-              />
-            </div>
-          </div>
-
-          <div className="col-lg-6 vh-100  justify-content-center ">
-            <div className="pb-30">
-              <div className="page_title_account">Se connecter</div>
-              <p className="titleDesc mb-15">Connectez-vous à votre compte</p>
-            </div>
-            <form onSubmit={handleSubmit}>
-              <div className="mb-3">
-                <label htmlFor="email" className="form-label">
-                  Adresse e-mail
-                </label>
-                <input
-                  type="email"
-                  className="form-control"
-                  id="email"
-                  name="email"
-                  aria-describedby="emailHelp"
-                  required
-                 
-                />
-              </div>
-              <div className="mb-3">
-                <label htmlFor="password" className="form-label">
-                  Mot de passe
-                </label>
-                <input
-                  type="password"
-                  className="form-control"
-                  name="password"
-                  id="password"
-                  required
-                  
-                />
-              </div>
-              {error && !isloged && (
-                <div style={{ color: "red" }} id="erreur" className="form-text pb-3">
-                  {error}
-                </div>
-              )}
-
-              <button type="submit" className="btn btn-primary bg-purple">
-                Se connecter
+            </h4>
+            <div>
+              <button
+                onClick={() => router.push("/")}
+                className="btn btn-primary bg-purple"
+              >
+                <b>Revenir au site</b>
               </button>
               <style jsx>{`
                 .bg-purple:hover {
@@ -117,7 +70,70 @@ export default function Login() {
                   color: #000 !important;
                 }
               `}</style>
-            </form>
+            </div>
+            <div className="imgLeft justify-content-center">
+              <img
+                src="/image/cnx.png"
+                className="imgLeft"
+                alt="Image de connexion"
+              />
+            </div>
+          </div>
+
+          <div className="col-lg-6 login-form bg-white justify-content-center ">
+            <div className="form-connecter">
+              <div className="page_title_account">Se connecter</div>
+              <p className="titleDesc mb-15 pb-5">
+                Connectez-vous à votre compte
+              </p>
+
+              <form className="" onSubmit={handleSubmit}>
+                <div className="mb-3">
+                  <label htmlFor="email" className="form-label">
+                    Adresse e-mail
+                  </label>
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="email"
+                    name="email"
+                    aria-describedby="emailHelp"
+                    required
+                  />
+                </div>
+                <div className="mb-3">
+                  <label htmlFor="password" className="form-label">
+                    Mot de passe
+                  </label>
+                  <input
+                    type="password"
+                    className="form-control"
+                    name="password"
+                    id="password"
+                    required
+                  />
+                </div>
+                {error && !isloged && (
+                  <div
+                    style={{ color: "red" }}
+                    id="erreur"
+                    className="form-text pb-3"
+                  >
+                    {error}
+                  </div>
+                )}
+
+                <button type="submit" className="btn btn-primary bg-purple">
+                  <b>Se connecter</b>
+                </button>
+                <style jsx>{`
+                  .bg-purple:hover {
+                    background-color: #fceb26 !important;
+                    color: #000 !important;
+                  }
+                `}</style>
+              </form>
+            </div>
           </div>
         </div>
       </div>

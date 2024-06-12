@@ -1,76 +1,104 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
+import { useFilter } from "../pages/hooks/useFilter";
 
-export default function FilterEshop() {
+export default function FilterEshop({categories,marques}) {
+  const { filters, addFilter, removeFilter } = useFilter();
   const [categorie, setCategorie] = useState([]);
   const [marque, setMarque] = useState([]);
-
-  const handleCategorieChange = (event) => {
-    const selectCategorie = event.target.value;
-    if (categorie.includes(selectCategorie)) {
-      setCategorie(categorie.filter((c) => c !== selectCategorie));
-    } else {
-      setCategorie([...categorie, selectCategorie]);
-    }
+  const [filterCategorie,setFilterCategorie]=useState([]);
+  const [filterMarque,setFilterMarque]=useState([]);
+  const [selectedFilters, setSelectedFilters] = useState({});
+ console.log(categories)
+  const handleFilterChange = (category, label) => {
+    setSelectedFilters((prev) => {
+      const newFilters = { ...prev };
+      if (!newFilters[category]) {
+        newFilters[category] = new Set();
+      }
+      if (newFilters[category].has(label)) {
+        newFilters[category].delete(label);
+      } else {
+        newFilters[category].add(label);
+      }
+      return newFilters;
+    });
   };
 
-  const handleMarqueChange = (event) => {
-    const selectedMarque = event.target.value;
-    if (marque.includes(selectedMarque)) {
-      setMarque(marque.filter((m) => m !== selectedMarque));
-    } else {
-      setMarque([...marque, selectedMarque]);
-    }
-  };
+  useEffect(() => {
+    const generateFiltersArray = () => {
+      const filtersArray = [];
+      for (const [category, labelsSet] of Object.entries(selectedFilters)) {
+        if (labelsSet.size > 0) {
+          filtersArray.push({
+            name: category,
+            value: Array.from(labelsSet).join(","),
+          });
+        }
+      }
+      return filtersArray;
+    };
 
+    const filtersArray = generateFiltersArray();
+    filters.forEach((filter) => removeFilter(filter.name));
+    filtersArray.forEach(addFilter);
+  }, [selectedFilters]);
+ useEffect(()=>{
+  setFilterCategorie(categories)
+  setFilterMarque(marques)
+ },[filterCategorie,filterMarque])
   return (
-    <>
-      <div>
-        <h2>Filtre</h2>
-        <h5>Categorie :</h5>
-        <label>
-          <input
-            type="checkbox"
-            value="accessoires"
-            checked={categorie.includes("accessoires")}
-            onChange={handleCategorieChange}
-          />
-          Accessoires
-        </label>
-        <br />
-        <label>
-          <input
-            type="checkbox"
-            value="smartphones"
-            checked={categorie.includes("smartphones")}
-            onChange={handleCategorieChange}
-          />
-          Smartphones
-        </label>
-        <p>Vous avez sélectionné : {categorie.join(", ")}</p>
+    <div className="filter-form" id="search_filters_wrapper">
+    <div class="title_block filter">
+      <span>Filtrer</span>
+    </div>
+    <hr className="hr-filter" />
+    <div id="search_filters">
+    <div className="pb-2" >
+    <h5 className="pt-3">Catégorie</h5>
+        {filterCategorie &&
+          filterCategorie.map((categorie, index) => (
+            <div className="row filter-label" key={index}>
+                    <div className="col-8">
+            <label key={index}>
+              <input
+                className="filter-input"
+                type="checkbox"
+                value={categorie.id}
+                onChange={() =>
+                  handleFilterChange("categorie", categorie.id)
+                }
+              />
+              {categorie.name}
+            </label>
+            </div>
+            </div>
+          ))}
+       </div>
+       
 
-        <h5>Marque :</h5>
-        <label>
+        
+        <div className="pb-2" >
+    <h5 className="pt-3">Marque</h5>
+        {filterMarque &&
+          filterMarque.map((nameMarque, index) => (
+            <div className="row filter-label" key={index}>
+                    <div className="col-8">
+        <label key={index}>
           <input
             type="checkbox"
-            value="itel"
-            checked={marque.includes("itel")}
-            onChange={handleMarqueChange}
+            value={nameMarque.value}
+            onChange={() =>
+              handleFilterChange("Marque", nameMarque.value)
+            }
           />
-          Itel
+          {nameMarque.label}
         </label>
-        <br />
-        <label>
-          <input
-            type="checkbox"
-            value="vivo"
-            checked={marque.includes("vivo")}
-            onChange={handleMarqueChange}
-          />
-          Vivo
-        </label>
-        <br />
-        <p>Vous avez sélectionné : {marque.join(", ")}</p>
+        </div>
       </div>
-    </>
+          ))}
+          
+          </div>
+      </div>
+      </div>
   );
 }
