@@ -25,6 +25,7 @@ export default function Login() {
     const userdata = await response.json();
     if (response.ok) {
       setIsloged(true);
+      console.log(userdata);
       console.log(userdata.data.psdata);
       localStorage.setItem("user", JSON.stringify(userdata.data.psdata.user));
       dispatch({ type: "LOGIN_SUCCESS", payload: userdata.data.psdata.user });

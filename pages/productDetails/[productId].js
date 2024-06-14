@@ -5,7 +5,7 @@ import Footer from "../../components/footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus } from "@fortawesome/free-solid-svg-icons";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
-
+import { ProductAvailability } from "../../components/productAvailability";
 export default function ProductDetails() {
   const router = useRouter();
   const { productId } = router.query;
@@ -13,6 +13,7 @@ export default function ProductDetails() {
   const [product, setProduct] = useState([]);
   const [quantity, setQuantity] = useState(1);
   const [qty, setQty] = useState(0);
+  const [stock, setStock] = useState();
   const [curentProduct, setCurentProduct] = useState({});
   const decrementQuantity = () => {
     if (quantity > 0) setQuantity(quantity - 1);
@@ -81,9 +82,9 @@ export default function ProductDetails() {
       id: product.id_product,
       qte: quantity,
       remise: product.discount_float_price,
-      remisePrix:product.discount_price,
-      prixFinal:product.price,
-      prix:product.float_price,
+      remisePrix: product.discount_price,
+      prixFinal: product.price,
+      prix: product.float_price,
       nom: product.name,
       img: product.images[0].src,
       couleur:
@@ -138,6 +139,7 @@ export default function ProductDetails() {
     addToList(product);
   };
 
+  
   return (
     <>
       <Header />
@@ -171,8 +173,16 @@ export default function ProductDetails() {
               <h3 className="price-details">{product.discount_price}</h3>
               <p className="price-piscount">{product.price}</p>
             </div>
+            <div class=" instock mb-3 product-add-to-cart pt-0 pb-0 largeAvailable">
+              <span>
+                <div class="product-availability" id="product-availability">
+                <ProductAvailability quantity={product.quantity} />
+                
+                </div>
+              </span>
+            </div>
             <div
-              className="pt-4"
+              className=""
               dangerouslySetInnerHTML={{
                 __html: product.description_short
                   ? product.description_short
@@ -306,3 +316,4 @@ export default function ProductDetails() {
     </>
   );
 }
+

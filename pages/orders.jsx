@@ -3,6 +3,8 @@ import Footer from "../components/footer";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { useRouter } from "next/router";
 import Header from "../components/header";
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export default function Orders() {
   const [orderList, setOrderList] = useState();
@@ -47,7 +49,7 @@ const handleChangeAction = (id_order) => {
         <div className="row">
           <div className="col-md-12 p-4">
             <section className="rounded p-3 bg-light">
-              <h4>My orders</h4>
+              <h4>Mes commandes</h4>
               <table className="table table-bordered rounded">
                 <thead>
                   <tr>
@@ -77,4 +79,11 @@ const handleChangeAction = (id_order) => {
       <Footer/>
     </>
   );
+}
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common"])),
+    },
+  };
 }

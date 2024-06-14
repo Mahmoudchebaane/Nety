@@ -1,33 +1,39 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { useFilter } from "../pages/hooks/useFilter";
+import { ProductAvailability } from "./productAvailability";
 
 export default function Categorie({ products, categories }) {
   const { filters, addFilter } = useFilter();
-  
+
   console.log(filters);
   const [productList, setProductList] = useState([]);
   const router = useRouter();
   useEffect(() => {
-    if(filters && filters.length>0)
-    {
-        
-        const categoryFilter = filters.find(filter => filter.name === "categorie")?.value.split(',').map(Number);
-        const brandFilter = filters.find(filter => filter.name === "Marque")?.value.split(',').map(Number);
-        
-        // Filtrer les produits
-        const filteredProducts = products.filter(product => {
-            const categoryMatch = categoryFilter?.length ? categoryFilter.includes(parseInt(product.id_category_default)) : true;
-            console.log(categoryFilter,parseInt(product.id_category_default))
-            const brandMatch = brandFilter?.length ? brandFilter.includes(parseInt(product.id_manufacturer)) : true;
-            return categoryMatch && brandMatch;
-        
-       
-        });
-       
-        setProductList(filteredProducts);
+    if (filters && filters.length > 0) {
+      const categoryFilter = filters
+        .find((filter) => filter.name === "categorie")
+        ?.value.split(",")
+        .map(Number);
+      const brandFilter = filters
+        .find((filter) => filter.name === "Marque")
+        ?.value.split(",")
+        .map(Number);
+
+      // Filtrer les produits
+      const filteredProducts = products.filter((product) => {
+        const categoryMatch = categoryFilter?.length
+          ? categoryFilter.includes(parseInt(product.id_category_default))
+          : true;
+        console.log(categoryFilter, parseInt(product.id_category_default));
+        const brandMatch = brandFilter?.length
+          ? brandFilter.includes(parseInt(product.id_manufacturer))
+          : true;
+        return categoryMatch && brandMatch;
+      });
+
+      setProductList(filteredProducts);
     }
-   
   }, [filters]);
   useEffect(() => {
     setProductList(products);
@@ -80,8 +86,9 @@ export default function Categorie({ products, categories }) {
                     className="card-img-top"
                     alt="..."
                   />
-                  <h3 className="">{product.name}</h3>
-                  <p className="">{product.availability_message}</p>
+                  <h5 className="">{product.name}</h5>
+                  <ProductAvailability quantity={product.quantity} />
+ 
                   <p className="regular_price">{product.regular_price}</p>
                   <p className="price">{product.price}</p>
                 </a>

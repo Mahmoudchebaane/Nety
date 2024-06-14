@@ -51,11 +51,11 @@ const menuItemsServices = {
   children: [
     {
       title: " Nety Security",
-      route: "/products/hinkle-horns",
+      route: "/nety_security",
     },
     {
       title: "Nety Service de Contenu",
-      route: "/products/doozers",
+      route: "/nety_service",
     },
   ],
 };
@@ -64,7 +64,7 @@ const menuItemsOffres = {
   children: [
     {
       title: "Offres Net's Go",
-      route: "/products/hinkle-horns",
+      route: "/offre-net-s-go",
     },
   ],
 };
@@ -125,8 +125,8 @@ export default function Header({}) {
     });
     setTotalPrice(totalPrice);
     setQty(totalQte);
-    console.log("QTE", totalQte);
-    console.log("QTE", totalPrice);
+    //console.log("QTE", totalQte);
+    //console.log("QTE", totalPrice);
     // Vérifie si des données d'utilisateur sont présentes dans le localStorage
     const userFromStorage = localStorage.getItem("user");
     if (userFromStorage) {
@@ -439,4 +439,11 @@ export default function Header({}) {
       </nav>
     </>
   );
+}
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common"])),
+    },
+  };
 }

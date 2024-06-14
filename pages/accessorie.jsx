@@ -61,7 +61,12 @@ export default function Accessorie() {
                 breadCrumbs.map((link, index) => {
                   return (
                     <li className="breadcrumb-item" key={index}>
-                      <a className="text-decoration-none text-purple" href={link.url}>{link.title}</a>
+                      <a
+                        className="text-decoration-none text-purple"
+                        href={link.url}
+                      >
+                        {link.title}
+                      </a>
                       <span>{index < breadCrumbs.length - 1 && " >"}</span>
                     </li>
                   );
@@ -76,7 +81,8 @@ export default function Accessorie() {
               </div>
               <div className="col-8">
                 <div className="hstack select-style gap-2">
-                <div className="p-2 qt-product">Il ya {count} produits</div>                  <div className="p-2 ms-auto">
+                  <div className="p-2 qt-product">Il ya {count} produits</div>{" "}
+                  <div className="p-2 ms-auto">
                     <form>
                       <select className="form-select mt-2">
                         <option></option>

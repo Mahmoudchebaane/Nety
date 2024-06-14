@@ -205,6 +205,22 @@
     padding-top: 20px;
     text-decoration: none;
 }
+.red{
+    color:red;
+    font-weight: bold;
+    font-size: 12px;
+}
+.gray{
+    color:gray;
+    font-weight: bold;
+    font-size: 12px;
+}
+.green
+{
+    color:#78be62;
+    font-weight: bold;
+    font-size: 12px;
+}
 .label-email{
     --bs-border-radius: 3rem;
 }
@@ -212,13 +228,13 @@
     padding: 20px 0 20px 0;
 }
 .card-product-home{
-    width: 260px !important;
-    margin: 30px;
+    width: 270px !important;
+    margin: 20px;
     border-radius: 7px;
-    padding: 10px;
+    padding: 20px 20px 0px 20px;
     display: flex;
     justify-content: start;
-    height: 420px;
+    height: 440px;
     border: 1px solid rgba(89, 4, 157, .35);
     box-shadow: 0 3px 6px rgba(0,0,0,.16);
 }
@@ -344,6 +360,16 @@
     align-items: flex-start;
     padding-top: 10px;
 }
+.panier-icone{
+    font-size: x-large;
+    color: #59049D;
+    padding-left: 10px;
+}
+.panier_titre{
+    font-size: x-large;
+    padding-left: 10px;
+    color: #59049D;
+}
 .page_title_account {
     border-bottom: none !important;
     color: #000;
@@ -356,11 +382,12 @@
     padding:80px;
 }
 .form-register{
-    padding: 80px 90px 10px 90px;
+    padding: 20px 140px 10px 140px;
 }
 .welcome{
     font-size: 60px;
 }
+
 .login-form{
     border-top-left-radius: 50px;
     border-bottom-left-radius:50px;

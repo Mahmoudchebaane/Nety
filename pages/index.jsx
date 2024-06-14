@@ -7,6 +7,7 @@ import Inscription from "../components/inscription";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Product from "../components/product";
 import { useTranslation } from 'next-i18next';
+import TopPack from '../components/toppack';
 
 export async function getStaticProps({ locale }) {
   return {
@@ -21,12 +22,12 @@ export default function Home({}) {
     <>
       <Header />
       <Slider />
+      <TopPack />
       <Service />
       <Product />
       <Contacts />
       <Inscription />
       <Footer />
-      
     </>
   );
 }

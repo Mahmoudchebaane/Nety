@@ -141,16 +141,16 @@ export default function OrderDetails() {
               {order && (
                 <>
                   <tr>
-                    <td>{order.details[0].product_name}</td>
-                    <td>{order.details[0].product_quantity}</td>
-                    <td>{order.details[0].unit_price_tax_incl} TND</td>
-                    <td>{order.details[0].unit_price_tax_incl}</td>
+                    <td>{order.details[0]?.product_name}</td>
+                    <td>{order.details[0]?.product_quantity}</td>
+                    <td>{order.details[0]?.unit_price_tax_incl} TND</td>
+                    <td>{order.details[0]?.unit_price_tax_incl}</td>
                   </tr>
                   <tr>
                     <td>Sous-total</td>
                     <td></td>
                     <td></td>
-                    <td>{order.details[0].unit_price_tax_incl}</td>
+                    <td>{order.details[0]?.unit_price_tax_incl}</td>
                   </tr>
                   <tr>
                     <td>Frais de livraison</td>
@@ -216,7 +216,7 @@ export default function OrderDetails() {
               <option selected>-- Veuiller choisir --</option>
               {order && (
                 <option key={order.id_order} value={order.id_order}>
-                  {order.details[0].product_name}
+                  {order.details[0]?.product_name}
                 </option>
               )}
             </select>

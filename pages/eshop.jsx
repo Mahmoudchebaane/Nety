@@ -10,11 +10,12 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Categorie from "../components/categorie";
 export default function Eshop() {
   const [products, setProducts] = useState([]);
+  const [originProducts, setOriginProducts] = useState([]);
   const [facets, setFacets] = useState([]);
   const [breadCrumbs, setBreadCrumbs] = useState([]);
   const [categories, setCategories] = useState();
   const [marques, setMarques] = useState([]);
-
+  const [querySearch, setQuerySearch] = useState();
   const [count, setCount] = useState(0);
   const { t } = useTranslation();
   const categoryIds = [8, 9];
@@ -35,10 +36,10 @@ export default function Eshop() {
         }));
        
         const tabMarques=combinedFacets.find(element=>element.label=="Marque");
-        
         setMarques(tabMarques.filters);
         setCategories(tabCatgories);
         setProducts(combinedProducts);
+        setOriginProducts(combinedProducts)
         setFacets(combinedFacets);
         setCount(combinedProducts.length);
         setBreadCrumbs(combinedBreadcrumbs);
@@ -48,7 +49,16 @@ export default function Eshop() {
     }
     fetchCategoryProducts();
   }, []);
-
+  function handleChangeQueryText(e)
+  {
+  setQuerySearch(e.target.value)
+  }
+  function submitQueryTextSearch()
+  {
+    const queryProducts=originProducts;
+    const filteredProducts = queryProducts.filter(product => product.name.toUpperCase().includes(querySearch.toUpperCase()));
+    setProducts(filteredProducts);
+  }
   return (
     <>
       <Header />
@@ -85,17 +95,18 @@ export default function Eshop() {
                   <div className="qt-product">Il y a {count} produits</div>
                 </div>
                 <div className="col-12 col-md-6 mb-2 mb-md-0">
-                  <form className="d-flex">
+                  <div className="d-flex">
                     <input
                       className="form-control me-2"
                       type="text"
                       placeholder="Search"
+                      onChange={handleChangeQueryText}
                       name="search"
                     />
-                    <button className="btn btn-outline-primary" type="submit">
+                    <button className="btn btn-outline-primary" onClick={submitQueryTextSearch} >
                       <i className="bi bi-search" />
                     </button>
-                  </form>
+                  </div>
                 </div>
                 <div className="col-12 col-md-3">
                   <form>

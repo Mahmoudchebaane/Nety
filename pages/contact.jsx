@@ -1,5 +1,7 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export default function Contact() {
   return (
@@ -150,4 +152,11 @@ export default function Contact() {
       <Footer />
     </>
   );
+}
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common"])),
+    },
+  };
 }
