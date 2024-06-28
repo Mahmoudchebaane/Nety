@@ -360,6 +360,56 @@
     align-items: flex-start;
     padding-top: 10px;
 }
+.oneArea {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: 30px 20px;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.pagePacks {
+    background-color: rgba(89, 4, 157, .08);
+    border-radius: 0 0 179px 0;
+}
+.card_pack-header {
+    background: #59049d 0% 0% no-repeat padding-box;
+    text-align: left;
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 35px 35px 0 0;
+}
+.associated_product{
+    margin-top: 12px;
+}
+.product-description .nov_image_text img {
+    margin-right: 1px;
+    width: 30px;
+    height: 30px;
+}
+.card_pack-body {
+    text-align: left;
+    background-color: rgba(89, 4, 157, .08);
+    line-height: 33px;
+    padding: 20px 20px 30px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.oneArea .oneBox {
+    text-align: left;
+    width: 350px;
+    transition: 0.3s;
+    margin: 0 20px 30px 20px;
+    border-radius: 35px;
+    background: #fff;
+    box-sizing: border-box;
+    color: #000;
+}
 .panier-icone{
     font-size: x-large;
     color: #59049D;
@@ -369,6 +419,15 @@
     font-size: x-large;
     padding-left: 10px;
     color: #59049D;
+}
+.parentImg img {
+    width: auto;
+    height: 250px;
+    margin-top: -70px;
+}
+.Page_title {
+    margin: auto;
+    padding: 0 15px;
 }
 .page_title_account {
     border-bottom: none !important;
@@ -948,3 +1007,7 @@ margin-right: 10px;
     color: white;
     height: 250px;
   }
+.messagestock{
+    color: #d0121a;
+    font-weight: bold;
+}

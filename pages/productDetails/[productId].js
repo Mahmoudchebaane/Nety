@@ -14,9 +14,12 @@ export default function ProductDetails() {
   const [quantity, setQuantity] = useState(1);
   const [qty, setQty] = useState(0);
   const [stock, setStock] = useState();
+  const [difference, setDifference] = useState();
+  const [message, setMessage]=useState();
   const [curentProduct, setCurentProduct] = useState({});
   const decrementQuantity = () => {
-    if (quantity > 0) setQuantity(quantity - 1);
+    if (quantity > 1) setQuantity(quantity - 1);
+    setMessage("")
   };
   const incrementQuantity = () => {
     setQuantity(quantity + 1);
@@ -58,16 +61,22 @@ export default function ProductDetails() {
   }
 
   useEffect(() => {
+    setDifference(stock - quantity);
+    console.log("here", stock - quantity);
+  }, [quantity]);
+  useEffect(() => {
     const fetchDetail = async () => {
       if (productId) {
         const detailProduct = await getDetailsProduct(productId);
         setProduct(detailProduct.psdata);
       }
     };
-
     fetchDetail();
   }, [productId]);
 
+  useEffect(() => {
+    setStock(product.quantity);
+  }, [product]);
   const getListCart = () => {
     if (typeof window !== "undefined") {
       const panierJSON = localStorage.getItem("panier");
@@ -81,6 +90,7 @@ export default function ProductDetails() {
     const item = {
       id: product.id_product,
       qte: quantity,
+      stockQte: difference,
       remise: product.discount_float_price,
       remisePrix: product.discount_price,
       prixFinal: product.price,
@@ -98,8 +108,10 @@ export default function ProductDetails() {
     console.log(typeof product.float_price);
 
     setCurentProduct(item);
+    let stockQuantity = stock - quantity;
 
     let exist = false;
+    let available = false;
     let newQte;
     const panierJSON = localStorage.getItem("panier");
     let listNew = [];
@@ -108,17 +120,25 @@ export default function ProductDetails() {
       for (let i = 0; i < list.length; i++) {
         if (list[i].id === item.id) {
           newQte = list[i].qte + item.qte;
-          list[i].qte = newQte;
+          stockQuantity = stock - newQte;
           exist = true;
-          //setQty(newQte);
+          if (stockQuantity >= 0) {
+            list[i].qte = newQte;
+            list[i].stockQte = stockQuantity;
+            available = true;
+          }
         }
       }
-      console.log("test222", list);
       listNew = list;
-      if (!exist) {
-        listNew.push(item);
+      if (available) {
+        if (!exist) {
+          listNew.push(item);
+        }
+      } else {
+        setMessage("Stock insuffisant");
       }
     } else {
+      console.log("here else");
       listNew.push(item);
     }
 
@@ -139,7 +159,6 @@ export default function ProductDetails() {
     addToList(product);
   };
 
-  
   return (
     <>
       <Header />
@@ -169,15 +188,15 @@ export default function ProductDetails() {
           </div>
           <div className="col">
             <h2>{product.name}</h2>
+            {message && <p className="messagestock">{message}</p>}
             <div className="price-container">
               <h3 className="price-details">{product.discount_price}</h3>
               <p className="price-piscount">{product.price}</p>
             </div>
             <div class=" instock mb-3 product-add-to-cart pt-0 pb-0 largeAvailable">
               <span>
-                <div class="product-availability" id="product-availability">
-                <ProductAvailability quantity={product.quantity} />
-                
+                <div className="product-availability" id="product-availability">
+                  <ProductAvailability quantity={product.quantity} />
                 </div>
               </span>
             </div>
@@ -214,6 +233,7 @@ export default function ProductDetails() {
                     type="button"
                     id="button-addon2"
                     onClick={incrementQuantity}
+                    disabled={difference < 0}
                     data-mdb-ripple-color="dark"
                   >
                     <FontAwesomeIcon icon={faPlus} />
@@ -223,12 +243,14 @@ export default function ProductDetails() {
 
               <div className="col-md-4 col-6 mb-3 justify-content-center align-items-center">
                 <button
+                  disabled={difference < 0}
                   onClick={() => handleCloseModalAndAddToList(product)}
                   className="btn btn-primary"
                 >
                   <i className="bi bi-cart3" />
                   <b> Ajouter au panier</b>
                 </button>
+                
                 {/* Modal */}
                 {showModal && (
                   <div
@@ -316,4 +338,3 @@ export default function ProductDetails() {
     </>
   );
 }
-

@@ -1,7 +1,7 @@
 export async function ProductDetails(product_id) {
-  console.log("iciiiiiiiiiiiiiiiiiii", product_id);
+  //console.log("iciiiiiiiiiiiiiiiiiii", product_id);
   const URL = process.env.NEXT_PUBLIC_PRESTASHOP_URL_API;
-  console.log("iciiiiiiiiiiiiiiiiiii", product_id);
+  //console.log("iciiiiiiiiiiiiiiiiiii", product_id);
   try {
     const response = await fetch(
       `${URL}/rest/productdetail?product_id=${product_id}`,
@@ -12,8 +12,8 @@ export async function ProductDetails(product_id) {
         },
       }
     );
-    console.log("iciiii product detail");
-    console.log(`${URL}/rest/productdetail?product_id=${product_id}`);
+    //console.log("iciiii product detail");
+    //console.log(`${URL}/rest/productdetail?product_id=${product_id}`);
     
     if (!response.ok) {
       throw new Error("HTTP error! Erreur lors du chargement");

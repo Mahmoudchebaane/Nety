@@ -40,7 +40,7 @@ export default function Panier() {
     setProducts((prevProducts) => {
       const updatedProducts = prevProducts.map((product) => {
         if (product.id === productId) {
-          console.log(product.remise);
+          console.log(product.qte);
           //setTotalPrice(totalPrice + product.remise);
           return { ...product, qte: product.qte + 1 };
         }

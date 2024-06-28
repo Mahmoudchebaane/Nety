@@ -6,32 +6,11 @@ export default function Nety_security() {
   return (
     <>
       <Header />
-      <Image />
-      <div className="container">
+      <Image title={"SECURITY"} image={"https://www.nety.tn/img/cms/secuity.png"} />
+      <div className="container-fluid">
         <p>
           <style>{`.vc_custom_1680183602348{background-color: #590e9d !important;}`}</style>
         </p>
-        <div className="row">
-          <div className="vc_custom_1680183602348 vc_row-has-fill">
-            <div className="col-6 col align-self-center">
-              <h1 className="Page_title">
-                <span style={{ color: "#fceb25", fontSize: "50px" }}>
-                  NETY&nbsp;
-                </span>
-                <span style={{ color: "#ffffff", fontSize: "50px" }}>
-                  SECURITY
-                </span>
-              </h1>
-            </div>
-            <div className="col-6 align-self-end">
-              <img
-                src="https://www.nety.tn/img/cms/secuity.png"
-                alt="nety security"
-              />
-            </div>
-          </div>
-        </div>
-
         <div className="vc_row-full-width"></div>
         <div className="vc_row wpb_row vc_row-fluid ml-auto">
           <div className="vc_col-sm-12 breadcrumb breadcrumb-style-5 ml-auto wpb_column vc_column_container">
@@ -67,8 +46,8 @@ export default function Nety_security() {
             </div>
           </div>
         </div>
-        <div className="vc_row wpb_row vc_row-fluid rebrique1 mb-50 mt-50 mt-sm-30 mb-sm-50">
-          <div className="vc_col-sm-6 wpb_column vc_column_container">
+        <div className="row p-4 wpb_row vc_row-fluid rebrique1 mb-50 mt-50 mt-sm-30 mb-sm-50">
+          <div className="col-md-6 wpb_column vc_column_container">
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_single_image wpb_content_element vc_align_left">
@@ -83,7 +62,7 @@ export default function Nety_security() {
               </div>
             </div>
           </div>
-          <div className="vc_col-sm-6 parentalText wpb_column vc_column_container">
+          <div className="col-md-6 parentalText wpb_column vc_column_container">
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_text_column wpb_content_element">
@@ -202,8 +181,8 @@ export default function Nety_security() {
         </div>
         <div className="vc_row-full-width"></div>
         <style>{`.vc_custom_1680168379287{padding: 0px !important;background-color: #fdec25 !important;}`}</style>
-        <div className="vc_row wpb_row vc_row-fluid packContainer mb-0 pt-xs-0 pt-md-30 pt-lg-50 mb-sm-30 vc_custom_1680168379287 vc_row-has-fill">
-          <div className="vc_col-sm-12 wpb_column vc_column_container">
+        <div className="row wpb_row row-fluid packContainer mb-0 pt-xs-0 pt-md-30 pt-lg-50 mb-sm-30 vc_custom_1680168379287 vc_row-has-fill">
+          <div className="col-md-12 wpb_column vc_column_container">
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_text_column wpb_content_element">
@@ -234,7 +213,7 @@ export default function Nety_security() {
               </div>
             </div>
           </div>
-          <div className="vc_col-sm-12 wpb_column vc_column_container">
+          <div className="col-md-12 wpb_column vc_column_container">
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_text_column wpb_content_element">
@@ -279,10 +258,10 @@ export default function Nety_security() {
             </div>
           </div>
         </div>
-        <div className="vc_row-full-width"></div>
-        <style>{`.vc_custom_1680166252365{margin-bottom: 0px !important;}`}</style>
-        <div className="vc_row wpb_row vc_row-fluid vc_custom_1680166252365">
-          <div className="vc_col-sm-12 mt-50 mt-sm-30 wpb_column vc_column_container">
+        
+        
+        <div className="row wpb_row vc_row-fluid vc_custom_1680166252365">
+          <div className="col-md-12 mt-50 mt-sm-30 wpb_column vc_column_container">
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_text_column wpb_content_element">
@@ -296,8 +275,8 @@ export default function Nety_security() {
             </div>
           </div>
         </div>
-        <div className="vc_row wpb_row vc_row-fluid rebrique">
-          <div className="vc_col-sm-6 parentalText wpb_column vc_column_container">
+        <div className="row pt-4  wpb_row vc_row-fluid rebrique">
+          <div className="col-md-6 p-4 parentalText wpb_column vc_column_container">
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_text_column wpb_content_element">
@@ -346,7 +325,7 @@ export default function Nety_security() {
               </div>
             </div>
           </div>
-          <div className="vc_col-sm-6 parentalImg wpb_column vc_column_container">
+          <div className="col-md-6 parentalImg wpb_column vc_column_container">
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_single_image wpb_content_element parentImg vc_align_center">
@@ -365,25 +344,7 @@ export default function Nety_security() {
           </div>
         </div>
         <style>{`.vc_custom_1679568391251{margin-top: -30px !important;}`}</style>
-        <div className="vc_row wpb_row vc_row-fluid bottomPhoto vc_custom_1679568391251">
-          <div className="vc_col-sm-12 wpb_column vc_column_container">
-            <div className="vc_column-inner">
-              <div className="wpb_wrapper">
-                <div className="wpb_single_image wpb_content_element align_center">
-                  <div className="wpb_wrapper">
-                    <a href="/fr/module/demandeabonnement/nouveau?">
-                      <img
-                        className=" vc_box_border_grey"
-                        alt="pc securite"
-                        src="//www.nety.tn/modules/jscomposer/uploads/Web-1920-1-2-.png"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+       
       </div>
       <Footer />
     </>
